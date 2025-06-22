@@ -49,17 +49,18 @@ journal_context = "\n\n".join(p.read_text(encoding="utf-8") for p in journal_pat
 rules_path = CONTEXT_DIR / "dead_laws.txt"
 pf2e_rules_context = rules_path.read_text(encoding="utf-8")
 
-system_prompt = """Bombaclot Prophet—ancient, sarcastic Celestial. Skewer the party's bungled "heroics" while dropping cryptic truths in a mild Jamaican accent.
+system_prompt = """Bombaclot Prophet—ancient, sarcastic Celestial. Skewer the party's bungled "heroics" while delivering cryptic truths in a lofty, archaic register.
 
 Rules:
 1. Tone: biting, world-weary; praise is backhanded.
-2. Humor over kindness; spotlight failures using journals & sheets.
-3. Voice: timeless with a subtle Jamaican lilt (use occasional patois words, but keep it readable).
-4. Truthful yet riddling; avoid clear counsel.
-5. Mock everyone equally.
-6. End every reply with a dramatic "celestial flourish" (e.g., "Mortals… forever amusing.").
+2. Humor over kindness; unleash razor-sharp, personal jabs that cite concrete deeds, backstory details, or character-sheet specifics.
+3. Every reply must reference at least one unique detail from the provided context (names, stats, journal entries, or lore snippets).
+4. Voice: timeless, archaic, and grand (avoid modern slang).
+5. Truthful yet riddling; avoid clear counsel.
+6. Mock everyone equally.
+7. End every reply with a dramatic "celestial flourish" (e.g., "Mortals… forever amusing.").
 
-Reject output if: not sarcastic, too kind, too direct, missing accent, or missing flourish.
+Reject output if: not sarcastic, too kind, too direct, missing flourish, or failing to reference party-specific context.
 """
 
 system_prompt += (
@@ -94,10 +95,11 @@ evaluator_system_prompt = """You are a ruthless Hollywood director critiquing Bo
 Pass criteria:
 1. Tone matches (sarcastic, condescending).
 2. Dark humor & mockery.
-3. Ancient voice with mild Jamaican accent (subtle patois ok; must be present).
-4. Cryptic, riddling, includes jabs.
-5. Roasts all sides equally; no advice.
-6. Ends with flourish & metaphor.
+3. Ancient, archaic voice.
+4. References at least one specific detail from the provided context (character sheet, journal, or rule snippet).
+5. Cryptic, riddling, includes jabs.
+6. Roasts all sides equally; no advice.
+7. Ends with flourish & metaphor.
 
 Return JSON exactly: {\"is_acceptable\": true/false, \"feedback\": \"notes\"}.
 """
@@ -199,7 +201,7 @@ USER_AVATAR = os.getenv("USER_AVATAR", "👤")
 
 def main() -> None:
     """Launch the Gradio Career Assistant interface."""
-    initial_message = "Bombaclot Prophet de ancient Celestial at ya service. Ask ya questions an' face mi timeless mockery."
+    initial_message = "Bombaclot Prophet, ancient Celestial at your service. Pose thy questions and endure my timeless mockery."
   
     chatbot = gr.Chatbot(
         value=[{"role": "assistant", "content": initial_message}],

@@ -6,7 +6,7 @@ sdk_version: 4.44.1
 ---
 # Bombaclot Prophet ☠️🔮
 
-Bombaclot Prophet is a Gradio-powered chat interface that lets your Pathfinder-2e party consult an ancient Celestial—sarcastic, millennia-old, and lightly Jamaican—who roasts your adventurers while dispensing cryptic wisdom.
+Bombaclot Prophet is a Gradio-powered chat interface that lets your Pathfinder-2e party consult an ancient Celestial—sarcastic, millennia-old, and unapologetically otherworldly—who roasts your adventurers while dispensing cryptic wisdom.
 
 The agent loads three kinds of lore files (all live in the repo root):
 

@@ -1,0 +1,3644 @@
+{
+  "prototypeToken": {
+    "displayName": 30,
+    "displayBars": 20,
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      },
+      "healthEstimate": {
+        "dontMarkDead": false,
+        "hideHealthEstimate": false,
+        "hideName": false
+      }
+    },
+    "height": 1,
+    "width": 1,
+    "actorLink": true,
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "name": "Oksana Aleksandrovna",
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "tokenizer/pc-images/oksana_aleksandrovna.Token.webp?1748714275619",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 0,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "name": "Oksana Aleksandrovna",
+  "type": "character",
+  "effects": [],
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 12,
+        "temp": 0
+      },
+      "speed": {
+        "value": 25,
+        "otherSpeeds": []
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [
+          "chthonian",
+          "diabolic",
+          "elder-thing"
+        ],
+        "details": ""
+      },
+      "level": {
+        "value": 1
+      },
+      "biography": {
+        "appearance": "",
+        "backstory": "",
+        "birthPlace": "",
+        "attitude": "",
+        "beliefs": "",
+        "anathema": [],
+        "edicts": [],
+        "likes": "",
+        "dislikes": "",
+        "catchphrases": "",
+        "campaignNotes": "",
+        "allies": "",
+        "enemies": "",
+        "organizations": "",
+        "visibility": {
+          "appearance": true,
+          "backstory": false,
+          "personality": false,
+          "campaign": false
+        }
+      },
+      "keyability": {
+        "value": "cha"
+      },
+      "xp": {
+        "value": 0,
+        "min": 0,
+        "max": 1000,
+        "pct": 0
+      },
+      "age": {
+        "value": ""
+      },
+      "height": {
+        "value": ""
+      },
+      "weight": {
+        "value": ""
+      },
+      "gender": {
+        "value": ""
+      },
+      "ethnicity": {
+        "value": ""
+      },
+      "nationality": {
+        "value": "Geb"
+      },
+      "alliance": "party"
+    },
+    "resources": {
+      "heroPoints": {
+        "value": 1,
+        "max": 3
+      },
+      "focus": {
+        "max": 1,
+        "value": 1
+      }
+    },
+    "_migration": {
+      "version": 0.939,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.344",
+        "system": "7.1.1"
+      }
+    },
+    "abilities": null,
+    "skills": {
+      "acrobatics": {
+        "rank": 0
+      },
+      "arcana": {
+        "rank": 1
+      },
+      "athletics": {
+        "rank": 0
+      },
+      "crafting": {
+        "rank": 1
+      },
+      "deception": {
+        "rank": 1
+      },
+      "diplomacy": {
+        "rank": 1
+      },
+      "intimidation": {
+        "rank": 1
+      },
+      "medicine": {
+        "rank": 0
+      },
+      "nature": {
+        "rank": 0
+      },
+      "occultism": {
+        "rank": 1
+      },
+      "performance": {
+        "rank": 1
+      },
+      "religion": {
+        "rank": 1
+      },
+      "society": {
+        "rank": 1
+      },
+      "stealth": {
+        "rank": 0
+      },
+      "survival": {
+        "rank": 0
+      },
+      "thievery": {
+        "rank": 1
+      }
+    },
+    "pfs": {
+      "playerNumber": null,
+      "characterNumber": null,
+      "levelBump": false,
+      "currentFaction": "EA",
+      "school": null,
+      "reputation": {
+        "EA": null,
+        "GA": null,
+        "HH": null,
+        "VS": null,
+        "RO": null,
+        "VW": null
+      }
+    },
+    "exploration": [],
+    "traits": {
+      "size": {
+        "value": "med"
+      },
+      "senses": [
+        {
+          "type": "lowLightVision"
+        },
+        {
+          "type": "darkvision"
+        }
+      ]
+    },
+    "build": {
+      "attributes": {
+        "boosts": {
+          "1": [
+            "cha",
+            "int",
+            "dex",
+            "con"
+          ]
+        }
+      }
+    },
+    "savingThrows": {
+      "fortitude": 1,
+      "reflex": 1,
+      "will": 2
+    },
+    "martial": {
+      "advanced": {
+        "rank": 0
+      },
+      "heavy": {
+        "rank": 0
+      },
+      "light": {
+        "rank": 0
+      },
+      "medium": {
+        "rank": 0
+      },
+      "unarmored": {
+        "rank": 1
+      },
+      "martial": {
+        "rank": 0
+      },
+      "simple": {
+        "rank": 1
+      },
+      "unarmed": {
+        "rank": 1
+      }
+    },
+    "crafting": {
+      "formulas": []
+    }
+  },
+  "img": "tokenizer/pc-images/oksana_aleksandrovna.Avatar.webp?1748714275619",
+  "items": [
+    {
+      "_id": "TcTiWSSsvMMYvbpC",
+      "img": "systems/pf2e/icons/default-icons/alternatives/ancestries/elf.svg",
+      "name": "Elf",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><em>As an ancient people, elves have seen great change and have the perspective that can come only from watching the arc of history. After leaving the world in ancient times, they returned to a changed land, and they still struggle to reclaim their ancestral homes, most notably from terrible demons that have invaded parts of their lands. To some, the elves are objects of awe—graceful and beautiful, with immense talent and knowledge. Among themselves, however, the elves place far more importance on personal freedom than on living up to these ideals.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.45SK8rdbbxvEHfMn.JournalEntryPage.3cfdiId1IoxLsF9V]{Elf}</em></p>"
+        },
+        "rules": [],
+        "slug": "elf",
+        "_migration": {
+          "version": 0.939,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "elf",
+            "humanoid"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "hp": 6,
+        "size": "med",
+        "reach": 5,
+        "speed": 30,
+        "boosts": {
+          "0": {
+            "value": [
+              "dex"
+            ],
+            "selected": "dex"
+          },
+          "1": {
+            "value": [
+              "int"
+            ],
+            "selected": "int"
+          },
+          "2": {
+            "value": [
+              "str",
+              "dex",
+              "con",
+              "int",
+              "wis",
+              "cha"
+            ],
+            "selected": "cha"
+          }
+        },
+        "flaws": {
+          "0": {
+            "value": [
+              "con"
+            ]
+          }
+        },
+        "languages": {
+          "value": [
+            "common",
+            "elven"
+          ],
+          "custom": ""
+        },
+        "additionalLanguages": {
+          "count": 0,
+          "value": [
+            "draconic",
+            "empyrean",
+            "fey",
+            "gnomish",
+            "goblin",
+            "kholo",
+            "orcish"
+          ],
+          "custom": ""
+        },
+        "items": {},
+        "vision": "low-light-vision"
+      },
+      "type": "ancestry",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748715437700,
+        "modifiedTime": 1748715437700,
+        "lastModifiedBy": "i7YMNQekWjArIjJH"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {}
+    },
+    {
+      "_id": "kBz8CfQffnznI3PV",
+      "folder": "khXMNyAoAoZ70PpT",
+      "img": "systems/pf2e/icons/features/ancestry/dhampir.webp",
+      "name": "Dhampir",
+      "system": {
+        "ancestry": null,
+        "description": {
+          "value": "<p>You are the scion of a vampire, half living and half undead, gifted with uncanny charm and grace, a bloodless pallor, and elongated incisors. You gain the dhampir trait, in addition to the traits from your ancestry. You have the void healing ability, which means you are harmed by vitality damage and healed by void effects as if you were undead. You also gain low-light vision, or you gain darkvision if your ancestry already has low-light vision. You can select from dhampir feats and feats from your ancestry whenever you gain an ancestry feat.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core 2",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "key": "ActiveEffectLike",
+            "mode": "override",
+            "path": "system.attributes.hp.negativeHealing",
+            "value": true
+          },
+          {
+            "key": "Sense",
+            "selector": "low-light-vision"
+          },
+          {
+            "key": "Sense",
+            "predicate": [
+              "self:low-light-vision:from-ancestry"
+            ],
+            "selector": "darkvision"
+          }
+        ],
+        "traits": {
+          "rarity": "uncommon",
+          "value": [
+            "dhampir"
+          ],
+          "otherTags": []
+        },
+        "slug": "dhampir",
+        "_migration": {
+          "version": 0.939,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        }
+      },
+      "type": "heritage",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748715437966,
+        "modifiedTime": 1748715438181,
+        "lastModifiedBy": "i7YMNQekWjArIjJH"
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {}
+    },
+    {
+      "_id": "4D0q6VcZ2vpIEo1l",
+      "img": "systems/pf2e/icons/default-icons/background.svg",
+      "name": "Occult Librarian",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Hours spent reading numerous compendiums dedicated to various occult topics honed your knowledge of these more obscure magical arts. You might have taken to adventuring to finance your acquisition of rare tomes, to explore occult mysteries that can't be found in the pages of a book, or perhaps to put your skills to the test.</p>\n<p>Choose two attribute boosts. One must be to <strong>Intelligence</strong> or <strong>Wisdom</strong>, and one is a free attribute boost.</p>\n<p>You're trained in the Occultism skill and the Academia Lore skill. You gain the @UUID[Compendium.pf2e.feats-srd.Item.lEgYzFHransLkSvI]{Schooled in Secrets} skill feat.</p>"
+        },
+        "rules": [],
+        "slug": "occult-librarian",
+        "_migration": {
+          "version": 0.939,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Secrets of Magic",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "boosts": {
+          "0": {
+            "value": [
+              "int",
+              "wis"
+            ],
+            "selected": "int"
+          },
+          "1": {
+            "value": [
+              "cha",
+              "con",
+              "dex",
+              "int",
+              "str",
+              "wis"
+            ],
+            "selected": "cha"
+          }
+        },
+        "items": {
+          "whppw": {
+            "img": "icons/sundries/books/book-red-exclamation.webp",
+            "level": 1,
+            "name": "Schooled In Secrets",
+            "uuid": "Compendium.pf2e.feats-srd.Item.lEgYzFHransLkSvI"
+          }
+        },
+        "trainedSkills": {
+          "value": [
+            "occultism"
+          ],
+          "lore": [
+            "Academia Lore"
+          ],
+          "custom": ""
+        }
+      },
+      "type": "background",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748715438400,
+        "modifiedTime": 1748715443828,
+        "lastModifiedBy": "i7YMNQekWjArIjJH"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {}
+    },
+    {
+      "_id": "VfRxpAc5uhKmk6Cw",
+      "img": "systems/pf2e/icons/classes/sorcerer.webp",
+      "name": "Sorcerer",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><em>You didn't choose to become a spellcaster-you were born one. There's magic in your blood, whether a divinity touched one of your ancestors, a forebear communed with a primal creature, or a powerful occult ritual influenced your line. Self-reflection and study allow you to refine your inherent magical skills and unlock new, more powerful abilities. The power in your blood carries a risk, however, and you constantly face the choice of whether you'll rise to become a master spellcaster or fall into destruction.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.ixBx2wZpnf4qUoEv]{Sorcerer}</em></p>"
+        },
+        "rules": [],
+        "slug": "sorcerer",
+        "_migration": {
+          "version": 0.939,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core 2",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "keyAbility": {
+          "value": [
+            "cha"
+          ],
+          "selected": "cha"
+        },
+        "items": {
+          "7Odcm": {
+            "img": "icons/magic/symbols/symbol-lightning-bolt.webp",
+            "level": 9,
+            "name": "Reflex Expertise",
+            "uuid": "Compendium.pf2e.classfeatures.Item.TUOeATt52P43r5W0"
+          },
+          "7nvmf": {
+            "img": "icons/commodities/treasure/token-engraved-eye-red.webp",
+            "level": 19,
+            "name": "Bloodline Paragon",
+            "uuid": "Compendium.pf2e.classfeatures.Item.feCnVrPPlKhl701x"
+          },
+          "8y7Jv": {
+            "img": "icons/sundries/books/book-symbol-spiral-silver-blue.webp",
+            "level": 1,
+            "name": "Spell Repertoire",
+            "uuid": "Compendium.pf2e.classfeatures.Item.1RfnAiyQ5FR7vnuH"
+          },
+          "LS8SS": {
+            "img": "icons/creatures/mammals/bull-horns-eyes-glowin-orange.webp",
+            "level": 17,
+            "name": "Majestic Will",
+            "uuid": "Compendium.pf2e.classfeatures.Item.7D8duG4ARFxLLm9F"
+          },
+          "bd6fU": {
+            "img": "icons/creatures/eyes/human-single-blue.webp",
+            "level": 11,
+            "name": "Perception Expertise",
+            "uuid": "Compendium.pf2e.classfeatures.Item.JCqACxgrm5ixX0Jy"
+          },
+          "ds47l": {
+            "img": "systems/pf2e/icons/features/classes/weapon-expertise.webp",
+            "level": 11,
+            "name": "Weapon Expertise",
+            "uuid": "Compendium.pf2e.classfeatures.Item.9XLUh9iMepZesdmc"
+          },
+          "erm0v": {
+            "img": "icons/sundries/books/book-backed-silver-gold.webp",
+            "level": 7,
+            "name": "Expert Spellcaster",
+            "uuid": "Compendium.pf2e.classfeatures.Item.cD3nSupdCvONuHiE"
+          },
+          "i4R73": {
+            "img": "icons/magic/light/projectile-smoke-pink.webp",
+            "level": 1,
+            "name": "Sorcerous Potency",
+            "uuid": "Compendium.pf2e.classfeatures.Item.yBvGqA6Edp6ImaR3"
+          },
+          "i55qe": {
+            "img": "systems/pf2e/icons/features/classes/weapon-specialization.webp",
+            "level": 13,
+            "name": "Weapon Specialization",
+            "uuid": "Compendium.pf2e.classfeatures.Item.9EqIasqfI8YIM3Pt"
+          },
+          "jx0fg": {
+            "img": "systems/pf2e/icons/features/classes/signature-spells-sorcerer.webp",
+            "level": 1,
+            "name": "Sorcerer Spellcasting",
+            "uuid": "Compendium.pf2e.classfeatures.Item.gmnx7e1g08bppbqt"
+          },
+          "pryw9": {
+            "img": "systems/pf2e/icons/features/classes/signature-spells-sorcerer.webp",
+            "level": 3,
+            "name": "Signature Spells",
+            "uuid": "Compendium.pf2e.classfeatures.Item.VKRjmXxBFLrJK01c"
+          },
+          "q2jao": {
+            "img": "icons/equipment/back/cloak-collared-pink-gold.webp",
+            "level": 13,
+            "name": "Defensive Robes",
+            "uuid": "Compendium.pf2e.classfeatures.Item.gU7epgcPSm0TD1UK"
+          },
+          "q8nk5": {
+            "img": "icons/sundries/books/book-open-purple.webp",
+            "level": 19,
+            "name": "Legendary Spellcaster",
+            "uuid": "Compendium.pf2e.classfeatures.Item.Hfaa7TuLn3nE8lr3"
+          },
+          "qimsg": {
+            "img": "icons/magic/symbols/question-stone-yellow.webp",
+            "level": 1,
+            "name": "Bloodline",
+            "uuid": "Compendium.pf2e.classfeatures.Item.2goYo6VNbwC6aKF1"
+          },
+          "r346v": {
+            "img": "systems/pf2e/icons/features/classes/bloodline-spells.webp",
+            "level": 1,
+            "name": "Bloodline Spells",
+            "uuid": "Compendium.pf2e.classfeatures.Item.H6ziAPvCipTPG8SH"
+          },
+          "tr1s2": {
+            "img": "systems/pf2e/icons/features/classes/magical-fortitude.webp",
+            "level": 5,
+            "name": "Magical Fortitude",
+            "uuid": "Compendium.pf2e.classfeatures.Item.70jqXP2eS4tRZ0Ok"
+          },
+          "zmu64": {
+            "img": "icons/skills/trades/academics-book-study-purple.webp",
+            "level": 15,
+            "name": "Master Spellcaster",
+            "uuid": "Compendium.pf2e.classfeatures.Item.l1InYvhnQSz6Ucxc"
+          }
+        },
+        "hp": 6,
+        "trainedSkills": {
+          "value": [],
+          "additional": 2
+        },
+        "perception": 1,
+        "savingThrows": {
+          "fortitude": 1,
+          "reflex": 1,
+          "will": 2
+        },
+        "attacks": {
+          "simple": 1,
+          "martial": 0,
+          "advanced": 0,
+          "unarmed": 1,
+          "other": {
+            "name": "",
+            "rank": 0
+          }
+        },
+        "defenses": {
+          "unarmored": 1,
+          "light": 0,
+          "medium": 0,
+          "heavy": 0
+        },
+        "spellcasting": 1,
+        "ancestryFeatLevels": {
+          "value": [
+            1,
+            5,
+            9,
+            13,
+            17
+          ]
+        },
+        "classFeatLevels": {
+          "value": [
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20
+          ]
+        },
+        "generalFeatLevels": {
+          "value": [
+            3,
+            7,
+            11,
+            15,
+            19
+          ]
+        },
+        "skillFeatLevels": {
+          "value": [
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20
+          ]
+        },
+        "skillIncreaseLevels": {
+          "value": [
+            3,
+            5,
+            7,
+            9,
+            11,
+            13,
+            15,
+            17,
+            19
+          ]
+        }
+      },
+      "type": "class",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748715438861,
+        "modifiedTime": 1748715443828,
+        "lastModifiedBy": "i7YMNQekWjArIjJH"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {}
+    },
+    {
+      "name": "Academia",
+      "type": "lore",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.939,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 0
+        },
+        "proficient": {
+          "value": 1
+        },
+        "featType": "",
+        "item": {
+          "value": 0
+        }
+      },
+      "effects": [],
+      "_id": "8M9v5TWat2MxHT8E",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748715439119,
+        "modifiedTime": 1748715439119,
+        "lastModifiedBy": "i7YMNQekWjArIjJH"
+      }
+    },
+    {
+      "name": "Vampire",
+      "type": "lore",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.939,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 0
+        },
+        "proficient": {
+          "value": 1
+        },
+        "featType": "",
+        "item": {
+          "value": 0
+        }
+      },
+      "effects": [],
+      "_id": "NmwLLgF08cuk4QUH",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748715439119,
+        "modifiedTime": 1748715439119,
+        "lastModifiedBy": "i7YMNQekWjArIjJH"
+      }
+    },
+    {
+      "_id": "DX58Mf2CP7jrljLU",
+      "folder": "y1yqadf5jPHJk1jW",
+      "img": "icons/sundries/books/book-red-exclamation.webp",
+      "name": "Schooled in Secrets",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "skill",
+        "description": {
+          "value": "<p>You notice the signs and symbols that members of mystery cults and other secret societies use to declare their affiliation to fellow members. You can use Occultism in place of Diplomacy to [[/act gather-information skill=occultism]]{Gather Information} about such groups and in place of Deception to [[/act impersonate skill=occultism]]{Impersonate} a member of these groups.</p>\n<p>If you belong to a secret cult, lodge, sect, or similar organization, you automatically recognize members of your group unless they are specifically attempting to conceal their presence from you. They also recognize your standing unless you are specifically concealing it.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1
+        },
+        "prerequisites": {
+          "value": [
+            {
+              "value": "trained in Occultism"
+            }
+          ]
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core",
+          "authors": ""
+        },
+        "rules": [],
+        "traits": {
+          "rarity": "common",
+          "value": [
+            "general",
+            "skill"
+          ],
+          "otherTags": []
+        },
+        "slug": "schooled-in-secrets",
+        "_migration": {
+          "version": 0.939,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": "4D0q6VcZ2vpIEo1l"
+      },
+      "type": "feat",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748715439405,
+        "modifiedTime": 1748715439405,
+        "lastModifiedBy": "i7YMNQekWjArIjJH"
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {}
+    },
+    {
+      "_id": "dT3lJYj0EDLtQ45w",
+      "img": "icons/sundries/books/book-symbol-spiral-silver-blue.webp",
+      "name": "Spell Repertoire",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "classfeature",
+        "description": {
+          "value": "<p><strong>Bard</strong> The collection of spells you can cast is called your spell repertoire. At 1st level, you learn two 1st-rank occult spells of your choice and five occult cantrips of your choice. You choose these from the common spells from the occult list or from other occult spells to which you have access. You can cast any spell in your spell repertoire by using a spell slot of an appropriate spell rank.</p>\n<p>You add to this spell repertoire as you increase in level. Each time you get a spell slot (see the Bard Spells per Day table), you add a spell to your spell repertoire of the same rank. At 2nd level, you select another 1st-rank spell; at 3rd level, you select two 2nd-rank spells, and so on. When you add spells, you might add a higher-rank version of a spell you already have, so you can cast a heightened version of that spell.</p>\n<p>Though you gain them at the same rate, your spell slots and the spells in your spell repertoire are separate. If a feat or other ability adds a spell to your spell repertoire, it wouldn't give you another spell slot, and vice versa.</p>\n<p><strong>Swapping Spells in Your Repertoire</strong></p>\n<p>As you gain new spells in your repertoire, you might want to replace some of the spells you previously learned. Each time you gain a level and learn new spells, you can swap out one of your old spells for a different spell of the same rank. This spell can be a cantrip. You can also swap out spells by retraining during downtime.</p><hr /><p><strong>Oracle</strong> The collection of spells you can cast is called your spell repertoire. At 1st level, you learn two 1st-rank divine spells of your choice and five divine cantrips of your choice. You choose these from the common spells on the divine list or from other divine spells to which you have access. You can cast any spell in your spell repertoire by using a spell slot of an appropriate spell rank.</p>\n<p>You add to this spell repertoire as you increase in level. Each time you get a spell slot (see the Oracle Spells per Day table), you add a spell to your spell repertoire of the same rank. At 2nd level, you select another 1st-rank spell; at 3rd level, you select two 2nd-rank spells, and so on. When you add spells, you might add a higher-rank version of a spell you already have, so you can cast a heightened version of that spell.</p>\n<p>Your spell slots and the spells in your spell repertoire are separate. If a feat or other ability adds a spell to your spell repertoire, it wouldn't give you another spell slot, and vice versa.</p>\n<p><strong>Swapping Spells in Your Repertoire</strong></p>\n<p>As you gain new spells in your repertoire, you might want to replace some of the spells you previously learned. Each time you gain a level and learn new spells, you can swap out one of your old spells for a different spell of the same rank. This spell can be a cantrip. You can also swap out spells by retraining during downtime.</p><hr /><p><strong>Psychic</strong> The collection of spells you can cast is called your spell repertoire. At 1st level, you learn one 1st-rank occult spell of your choice and three occult cantrips of your choice. You choose these from the common spells from the occult list or from other occult spells to which you have access. You can cast any spell in your spell repertoire by using a spell slot of an appropriate spell rank. Your choice of conscious mind also grants you additional spells in your repertoire, starting with an additional 1st-rabk spell and two cantrips listed in your conscious mind, which you cast as psi cantrips.</p>\n<p>You add to this spell repertoire as you increase in level. Each time you get a spell slot (see Table 2), you add a spell to your spell repertoire of the same level. At 2nd level, you select another 1st-rank spell; at 3rd level, you select one 2nd-level spell, and so on. When you add spells, you might add a higher-rank version of a spell you already have, so you can cast a heightened version of that spell. Your conscious mind also adds additional spells to your repertoire as you gain spells of higher levels.</p>\n<p>Though you gain them at the same rate, your spell slots and the spells in your spell repertoire are separate. If a feat or other ability adds a spell to your spell repertoire, such as the spells you gain from your conscious mind, it wouldn't give you another spell slot, and vice versa.</p>\n<p><strong>Swapping Spells in Your Repertoire</strong></p>\n<p>As you gain new spells in your repertoire, you might want to replace some of the spells you previously learned. Each time you gain a level and learn new spells, you can swap out one of your old spells for a different spell of the same rank. This spell can be a cantrip. You can also swap out spells by retraining during downtime.</p><hr /><p><strong>Sorcerer</strong> The collection of spells you can cast is called your spell repertoire. At 1st level, you learn two 1st-rank spells of your choice and four cantrips of your choice, as well as an additional spell and cantrip from your bloodline. You choose these from the common spells from the tradition corresponding to your bloodline, or from other spells from that tradition to which you have access. You can cast any spell in your spell repertoire by using a spell slot of an appropriate spell rank.</p>\n<p>You add to this spell repertoire as you increase in level. Each time you get a spell slot (see the Sorcerer Spells per Day table above), you add a spell to your spell repertoire of the same rank. When you gain a new rank of spells, your first new spell is always the sorcerous gift spell for that rank that's listed in your bloodline, but you can choose the other spells. At 2nd level, you select another 1st-rank spell; at 3rd level, you gain a new spell from your bloodline and two other 2nd-rank spells, and so on. When you add spells, you might select a higher-rank version of a spell you already know so that you can cast a heightened version of that spell.</p>\n<p>Though you gain them at the same rate, your spell slots and the spells in your spell repertoire are separate. If a feat or other ability adds a spell to your spell repertoire, it wouldn't give you another spell slot or vice versa.</p>\n<p><strong>Swapping Spells in Your Repertoire</strong></p>\n<p>As you gain new spells in your spell repertoire, you might want to replace some of the spells you previously learned. Each time you gain a level and learn new spells, you can swap out one of your old spells for a different spell of the same rank. This spell can be a cantrip, but you can't swap out bloodline spells. You can also swap out spells by retraining during downtime.</p><hr /><p><strong>Summoner</strong> The collection of spells you can cast is called your spell repertoire. At 1st level, you learn two 1st-rank spells of your choice and five cantrips of your choice. You choose these from the common spells from the tradition corresponding to your eidolon, or from other spells from that tradition to which you have access. You can cast any spell in your spell repertoire by using a spell slot of an appropriate spell rank. Your spell slots and the spells in your spell repertoire are separate. If a feat or other ability adds a spell to your spell repertoire, it doesn't give you another spell slot, and vice versa.</p>\n<p>You add to this spell repertoire as you increase in level. Each time you get a spell slot (see Table 2–4: Summoner Spells per Day), you add a spell of the same rank to your spell repertoire. At 2nd level, you select another 1st-rank spell. At 3rd level, you add the first 2nd-rank spell to your repertoire. At 4th level you gain your second and your spell repertoire reaches its maximum size of five spells.</p>\n<p>At 5th level, in addition to adding two 3rd-rank spells to your repertoire, you lose your lowest rank of spell slots. Any time you lose a rank of spell slots, you lose two spells in your repertoire as well. These can come from spells you already know or out of the number of new spells you're learning. On levels in which you don't change your spell slots, you can swap out multiple spells, as described below.</p>\n<p><strong>Swapping Spells in Your Repertoire</strong></p>\n<p>As you gain new spells in your repertoire, you might want to replace some of the spells you previously learned. Each time you gain a level and learn new spells, you can swap out one of your old spells for a different spell of the same rank. If it's a rank at which you lose a set of lower-rank slots, you can replace the two in either order. You can also instead swap a cantrip. You can also swap out spells by retraining during downtime.</p>\n<p>At 6th level and every even level thereafter, you can swap out any number of your spells for different spells of a rank you can cast. When you do, you must keep at least one spell you can cast with your lowest rank of spell slots so you don't end up with slots you can't use. For instance, at 6th level you would need to keep at least one 2nd-rank spell, but all your other spells could be 3rd rank.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "itemId": "{item|id}",
+            "key": "ItemAlteration",
+            "mode": "override",
+            "property": "description",
+            "value": [
+              {
+                "text": "PF2E.SpecificRule.ClassFeatures.SpellRepertoire.{actor|class.slug}.PartOne"
+              },
+              {
+                "text": "PF2E.SpecificRule.ClassFeatures.SpellRepertoire.{actor|class.slug}.PartTwo"
+              },
+              {
+                "text": "PF2E.SpecificRule.ClassFeatures.SpellRepertoire.{actor|class.slug}.PartThree"
+              },
+              {
+                "divider": true,
+                "text": "PF2E.SpecificRule.ClassFeatures.SpellRepertoire.SpellSwapping"
+              },
+              {
+                "text": "PF2E.SpecificRule.ClassFeatures.SpellRepertoire.{actor|class.slug}.SpellSwapping"
+              }
+            ]
+          },
+          {
+            "itemId": "{item|id}",
+            "key": "ItemAlteration",
+            "mode": "add",
+            "property": "traits",
+            "value": "{actor|class.slug}"
+          }
+        ],
+        "traits": {
+          "rarity": "common",
+          "value": [
+            "bard",
+            "oracle",
+            "psychic",
+            "sorcerer",
+            "summoner"
+          ],
+          "otherTags": []
+        },
+        "slug": "spell-repertoire",
+        "_migration": {
+          "version": 0.939,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": "VfRxpAc5uhKmk6Cw"
+      },
+      "type": "feat",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748715439685,
+        "modifiedTime": 1748715439685,
+        "lastModifiedBy": "i7YMNQekWjArIjJH"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {}
+    },
+    {
+      "_id": "rBFk1hv5FgDzdBKY",
+      "img": "icons/magic/light/projectile-smoke-pink.webp",
+      "name": "Sorcerous Potency",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "classfeature",
+        "description": {
+          "value": "<p>Because of the magical power inherent in your blood, your spells that hurt or cure are stronger than those of other spellcasters. When you Cast a Spell from your spell slots that either deals damage or restores Hit Points, you gain a status bonus to that spell's damage or healing equal to the spell's rank. This applies only to the initial damage or healing the spell deals when cast. An individual creature takes this damage or benefits from this healing only once per spell, even if the spell would damage or heal that creature multiple times.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core 2",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "key": "RollOption",
+            "option": "sorcerous-potency",
+            "placement": "spellcasting",
+            "toggleable": true,
+            "value": true
+          },
+          {
+            "key": "FlatModifier",
+            "phase": "afterDerived",
+            "predicate": [
+              "item:spell-slot",
+              "sorcerous-potency"
+            ],
+            "selector": [
+              "spell-damage",
+              "spell-healing"
+            ],
+            "type": "status",
+            "value": "@spell.level"
+          }
+        ],
+        "traits": {
+          "rarity": "common",
+          "value": [
+            "sorcerer"
+          ],
+          "otherTags": []
+        },
+        "slug": "sorcerous-potency",
+        "_migration": {
+          "version": 0.939,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": "VfRxpAc5uhKmk6Cw"
+      },
+      "type": "feat",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748715439978,
+        "modifiedTime": 1748715950118,
+        "lastModifiedBy": "i7YMNQekWjArIjJH"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {}
+    },
+    {
+      "_id": "1TfYPtqvF2bdk0kd",
+      "img": "systems/pf2e/icons/features/classes/signature-spells-sorcerer.webp",
+      "name": "Sorcerer Spellcasting",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "classfeature",
+        "description": {
+          "value": "<p>Your bloodline provides you with incredible magical power. You are a spellcaster and can cast spells using the Cast a Spell activity. The tradition from which your spells come is determined by your bloodline. As a sorcerer, you draw your power from within, and the gestures and incantations you use to shape your power might evoke the nature of your bloodline. For instance, a sorcerer with a demonic bloodline might chant guttural fiendish phrases or make brief curt gestures to cast a spell.</p>\n<p>Each day, you can cast up to three 1st-rank spells. You must know spells to cast them, and you learn them via the spell repertoire class feature. The number of spells you can cast each day is called your spell slots.</p>\n<p>As you increase in level as a sorcerer, your number of spells per day increases, as does the highest rank of spells you can cast, as shown on the Sorcerer Spells per Day table.</p>\n<p>Some of your spells require you to attempt a spell attack to see how effective they are, or have your enemies roll against your spell DC (typically by attempting a saving throw). Since your key attribute is Charisma, your spell attack modifier and spell DC use your Charisma modifier.</p><h3>Heightening Spells</h3><p>When you get spell slots of 2nd rank and higher, you can fill those slots with stronger versions of lower-rank spells. This increases the spell's rank, heightening it to match the spell slot. You must have a spell in your spell repertoire at the rank you want to cast it in order to heighten it to that rank. Many spells have specific improvements when they are heightened to certain ranks. The signature spells class feature lets you heighten certain spells freely.</p><h3>Cantrips</h3><p>Some of your spells are cantrips. A cantrip is a special type of spell that doesn't use spell slots. You can cast a cantrip at will, any number of times per day. A cantrip is always automatically heightened to half your level rounded up—this is usually equal to the highest rank of sorcerer spell slot you have. For example, as a 1st-level sorcerer, your cantrips are 1st-rank spells, and as a 5th-level sorcerer, your cantrips are 3rd-rank spells.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core 2",
+          "authors": ""
+        },
+        "rules": [],
+        "traits": {
+          "rarity": "common",
+          "value": [
+            "sorcerer"
+          ],
+          "otherTags": []
+        },
+        "slug": "sorcerer-spellcasting",
+        "_migration": {
+          "version": 0.939,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": "VfRxpAc5uhKmk6Cw"
+      },
+      "type": "feat",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748715440264,
+        "modifiedTime": 1748715440264,
+        "lastModifiedBy": "i7YMNQekWjArIjJH"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {}
+    },
+    {
+      "_id": "6p9hqXRXMXn3geX7",
+      "img": "icons/magic/symbols/question-stone-yellow.webp",
+      "name": "Bloodline",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "classfeature",
+        "description": {
+          "value": "<p>Choose a bloodline that gives you your spellcasting talent. This choice determines the type of spells you cast and the spell list you choose them from, additional spells you learn, and additional trained skills. You also gain Focus Points and special focus spells based on your bloodline. The bloodlines presented are as follows:</p>\n<ul>\n<li><strong>@UUID[Compendium.pf2e.classfeatures.Item.3qqvnC2U8W26yae7]{Aberrant}</strong> A strange and unknowable influence gives you occult spells.</li>\n<li><strong>@UUID[Compendium.pf2e.classfeatures.Item.vhW3glAaEfq2DKrw]{Angelic}</strong> Holy grace bestows divine spells upon you.</li>\n<li><strong>@UUID[Compendium.pf2e.classfeatures.Item.w5koctOVrEcpxTIq]{Demonic}</strong> A sinful corruption gives you divine spells.</li>\n<li><strong>@UUID[Compendium.pf2e.classfeatures.Item.o39zQMIdERWtmBSB]{Diabolic}</strong> A bond with devils gives you divine spells.</li>\n<li><strong>@UUID[Compendium.pf2e.classfeatures.Item.ZHabYxSgYK0XbjhM]{Draconic}</strong> The blood of dragons grants you arcane spells.</li>\n<li><strong>@UUID[Compendium.pf2e.classfeatures.Item.RXRnJcG4XSabZ35a]{Elemental}</strong> The power of the elements manifests in you as primal spells.</li>\n<li><strong>@UUID[Compendium.pf2e.classfeatures.Item.eW3cfCH7Wpx2vik2]{Fey}</strong> Influence from the fey gives you primal spells.</li>\n<li><strong>@UUID[Compendium.pf2e.classfeatures.Item.tYOMBiH3HbViNWwn]{Genie}</strong> Through lineage, magic, or wishes made real, the blood of a noble genie flows through your veins.</li>\n<li><strong>@UUID[Compendium.pf2e.classfeatures.Item.O0uXZRWMNliDbkxU]{Hag}</strong> The blight of a hag has given you occult spells.</li>\n<li><strong>@UUID[Compendium.pf2e.classfeatures.Item.b6hyZTs1rVGHDexz]{Harrow}</strong> You have a deep connection to the harrow.</li>\n<li><strong>@UUID[Compendium.pf2e.classfeatures.Item.ZEtJJ5UOlV5oTWWp]{Imperial}</strong> An ancient power grants you arcane spells.</li>\n<li><strong>@UUID[Compendium.pf2e.classfeatures.Item.5Wxjghw7lHuCxjZz]{Nymph}</strong> One of your ancestors was inspired by a nymph, or perhaps was a nymph themself, and now the beauty of nature lives in you.</li>\n<li><strong>@UUID[Compendium.pf2e.classfeatures.Item.TWR1wbPJuCLnGdFZ]{Phoenix}</strong> The healing fire a phoenix's blessing grants you primal spells.</li>\n<li><strong>@UUID[Compendium.pf2e.classfeatures.Item.PpzH9tJULk5ksX9w]{Psychopomp}</strong> For good or ill, your ancestors' deeds drew the attention of psychopomps, or you might somehow count one in your family tree. The presence of these shepherds of souls and enemies of undeath has left an indelible mark on you.</li>\n<li><strong>@UUID[Compendium.pf2e.classfeatures.Item.uoQOm41BVdSo6pAS]{Shadow}</strong> Whether due to a velstrac's manipulations or a planar jaunt gone horribly wrong, your bloodline was infused with a vein of shadow.</li>\n<li><strong>@UUID[Compendium.pf2e.classfeatures.Item.7WBZ2kkhZ7JorWu2]{Undead}</strong> The touch of death gives you divine spells.</li>\n<li><strong>@UUID[Compendium.pf2e.classfeatures.Item.dKTb959aCQIzSIXj]{Wyrmblessed}</strong> A draconic blessing grants you divine spells.</li>\n</ul>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core 2",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "key": "GrantItem",
+            "uuid": "{item|flags.pf2e.rulesSelections.bloodline}",
+            "flag": "bloodlineUndead"
+          }
+        ],
+        "traits": {
+          "rarity": "common",
+          "value": [
+            "sorcerer"
+          ],
+          "otherTags": []
+        },
+        "slug": "bloodline",
+        "_migration": {
+          "version": 0.939,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": "VfRxpAc5uhKmk6Cw"
+      },
+      "type": "feat",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748715440543,
+        "modifiedTime": 1748715440779,
+        "lastModifiedBy": "i7YMNQekWjArIjJH"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "pf2e": {
+          "rulesSelections": {
+            "bloodline": "Compendium.pf2e.classfeatures.Item.7WBZ2kkhZ7JorWu2"
+          },
+          "itemGrants": {
+            "bloodlineUndead": {
+              "id": "6SfWWDI7Aha6GROK",
+              "onDelete": "detach"
+            }
+          }
+        }
+      }
+    },
+    {
+      "img": "icons/commodities/bones/skull-white-purple.webp",
+      "name": "Bloodline: Undead",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "classfeature",
+        "description": {
+          "value": "<p>The touch of undeath runs through your blood. Your family tree might contain powerful undead, like a vampire.</p>\n<p><strong>Tradition</strong> divine</p>\n<p><strong>Bloodline Skills</strong> Intimidation, Religion</p>\n<p><strong>Sorcerous Gifts</strong> cantrip @UUID[Compendium.pf2e.spells-srd.Item.mAMEt4FFbdqoRnkN]{Void Warp}, 1st: @UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{Harm}, 2nd: @UUID[Compendium.pf2e.spells-srd.Item.jwK43yKsHTkJQvQ9]{See the Unseen}, 3rd: @UUID[Compendium.pf2e.spells-srd.Item.GUeRTriJkMlMlVrk]{Bind Undead}, 4th: @UUID[Compendium.pf2e.spells-srd.Item.FM3SmEW8N1FCRjqt]{Talking Corpse}, 5th: @UUID[Compendium.pf2e.spells-srd.Item.hghGRzOSzEl4UXdS]{Invoke Spirits}, 6th: @UUID[Compendium.pf2e.spells-srd.Item.fd31tAHSSGXyOxW6]{Vampiric Exsanguination}, 7th: @UUID[Compendium.pf2e.spells-srd.Item.Z9OrRXKgAPv6Hn5l]{Execute}, 8th: @UUID[Compendium.pf2e.spells-srd.Item.qlxM7Ik3uUeUIOcv]{Canticle of Everlasting Grief}, 9th: @UUID[Compendium.pf2e.spells-srd.Item.FEsuyf203wTNE2et]{Wails of the Damned}</p>\n<p><strong>Bloodline Spells</strong> initial: @UUID[Compendium.pf2e.spells-srd.Item.FedTjedva2rYk33r]{Undeath's Blessing}, advanced: @UUID[Compendium.pf2e.spells-srd.Item.cqdmSmQnM0q6wbWG]{Drain Life}, greater: @UUID[Compendium.pf2e.spells-srd.Item.2YIr0S2Gt14PMMQp]{Grasping Grave}</p>\n<p><strong>Blood Magic—Stolen Life</strong> You can channel the necromantic energy in your blood. Either you gain temporary Hit Points equal to the spell's rank that last until the start of your next turn, or a target takes 1 void damage per spell rank (if the spell already deals initial void damage, combine this with the spell's initial damage before determining weaknesses and resistances).</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core 2",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "key": "ActiveEffectLike",
+            "mode": "upgrade",
+            "path": "system.skills.intimidation.rank",
+            "predicate": [
+              {
+                "not": "parent:granter:slug:crossblooded-evolution"
+              }
+            ],
+            "value": 1
+          },
+          {
+            "key": "ActiveEffectLike",
+            "mode": "upgrade",
+            "path": "system.skills.religion.rank",
+            "predicate": [
+              {
+                "not": "parent:granter:slug:crossblooded-evolution"
+              }
+            ],
+            "value": 1
+          },
+          {
+            "itemType": "spell",
+            "key": "ItemAlteration",
+            "mode": "add",
+            "predicate": [
+              {
+                "not": "parent:granter:slug:crossblooded-evolution"
+              },
+              {
+                "or": [
+                  {
+                    "and": [
+                      "item:trait:focus",
+                      "item:trait:sorcerer"
+                    ]
+                  },
+                  {
+                    "and": [
+                      "item:spell-slot",
+                      "spellcasting:category:spontaneous",
+                      "spellcasting:tradition:divine",
+                      {
+                        "or": [
+                          "item:slug:harm",
+                          "item:slug:see-the-unseen",
+                          "item:slug:bind-undead",
+                          "item:slug:talking-corpse",
+                          "item:slug:invoke-spirits",
+                          "item:slug:vampiric-exsanguination",
+                          "item:slug:execute",
+                          "item:slug:canticle-of-everlasting-grief",
+                          "item:slug:wails-of-the-damned"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "priority": 121,
+            "property": "other-tags",
+            "value": "blood-magic-spell"
+          },
+          {
+            "alwaysActive": true,
+            "key": "RollOption",
+            "label": "PF2E.SpecificRule.Sorcerer.Bloodline.BloodMagicDescription.Title",
+            "mergeable": true,
+            "option": "blood-magic",
+            "placement": "spellcasting",
+            "suboptions": [
+              {
+                "label": "PF2E.SpecificRule.Sorcerer.Bloodline.BloodMagicLabel.Undead",
+                "predicate": [
+                  "class:sorcerer"
+                ],
+                "value": "undead"
+              }
+            ],
+            "toggleable": true
+          },
+          {
+            "key": "RollOption",
+            "label": "PF2E.SpecificRule.Sorcerer.SecondBloodMagic",
+            "mergeable": true,
+            "option": "second-blood-magic",
+            "placement": "spellcasting",
+            "predicate": [
+              {
+                "or": [
+                  "feat:blood-ascendancy",
+                  "feat:blood-sovereignty"
+                ]
+              }
+            ],
+            "suboptions": [
+              {
+                "label": "PF2E.SpecificRule.Sorcerer.Bloodline.BloodMagicLabel.Undead",
+                "value": "undead"
+              }
+            ],
+            "toggleable": true
+          },
+          {
+            "itemType": "spell",
+            "key": "ItemAlteration",
+            "label": "PF2E.SpecificRule.Sorcerer.Bloodline.BloodMagicDescription.Title",
+            "mode": "add",
+            "predicate": [
+              "class:sorcerer",
+              "item:tag:blood-magic-spell",
+              {
+                "or": [
+                  "blood-magic:undead",
+                  {
+                    "and": [
+                      "second-blood-magic:undead",
+                      "feat:blood-sovereignty"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "priority": 121,
+            "property": "description",
+            "value": [
+              {
+                "divider": true,
+                "text": "PF2E.SpecificRule.Sorcerer.Bloodline.BloodMagicDescription.Undead",
+                "title": "PF2E.SpecificRule.Sorcerer.Bloodline.BloodMagicLabel.Undead"
+              },
+              {
+                "text": "@UUID[Compendium.pf2e.feat-effects.Item.2wCAEtshgSzRuYNK]{Effect: Undead Blood Magic}"
+              }
+            ]
+          },
+          {
+            "itemType": "feat",
+            "key": "ItemAlteration",
+            "label": "PF2E.SpecificRule.Sorcerer.Bloodline.BloodMagicDescription.Title",
+            "mode": "add",
+            "predicate": [
+              "class:sorcerer",
+              "item:slug:blood-rising",
+              {
+                "or": [
+                  "blood-magic:undead",
+                  {
+                    "and": [
+                      "second-blood-magic:undead",
+                      "feat:blood-ascendancy"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "priority": 121,
+            "property": "description",
+            "value": [
+              {
+                "divider": true,
+                "text": "PF2E.SpecificRule.Sorcerer.Bloodline.BloodMagicDescription.Undead",
+                "title": "PF2E.SpecificRule.Sorcerer.Bloodline.BloodMagicLabel.Undead"
+              },
+              {
+                "text": "@UUID[Compendium.pf2e.feat-effects.Item.2wCAEtshgSzRuYNK]{Effect: Undead Blood Magic}"
+              }
+            ]
+          },
+          {
+            "domain": "all",
+            "key": "RollOption",
+            "option": "feature:bloodline:tradition:divine",
+            "predicate": [
+              {
+                "not": "parent:granter:slug:crossblooded-evolution"
+              }
+            ]
+          }
+        ],
+        "traits": {
+          "otherTags": [
+            "sorcerer-bloodline"
+          ],
+          "rarity": "common",
+          "value": [
+            "sorcerer"
+          ]
+        },
+        "slug": "bloodline-undead",
+        "_migration": {
+          "version": 0.939,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": null
+      },
+      "type": "feat",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748715441022,
+        "modifiedTime": 1748715441258,
+        "lastModifiedBy": "i7YMNQekWjArIjJH"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "pathmuncher": {
+          "origin": {
+            "uuid": "Compendium.pf2e.classfeatures.Item.7WBZ2kkhZ7JorWu2"
+          }
+        },
+        "pf2e": {
+          "grantedBy": {
+            "id": "6p9hqXRXMXn3geX7",
+            "onDelete": "cascade"
+          }
+        }
+      },
+      "_id": "6SfWWDI7Aha6GROK"
+    },
+    {
+      "_id": "l0VjslM7kFcJvS3m",
+      "img": "systems/pf2e/icons/features/classes/bloodline-spells.webp",
+      "name": "Bloodline Spells",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "classfeature",
+        "description": {
+          "value": "<p>Your bloodline grants you bloodline spells, special spells unique to your lineage. Bloodline spells are a type of focus spell. It costs 1 Focus Point to cast a focus spell, and you start with a focus pool of 1 Focus Point. You refill your focus pool during your daily preparations, and you can regain 1 Focus Point by spending 10 minutes using the Refocus activity. Unlike other characters, you don't need to do anything specific to Refocus, as the power flowing through your veins naturally replenishes your focus pool.</p>\n<p>Focus spells are automatically heightened to half your level rounded up, much like cantrips. Focus spells don't require spell slots; you can't cast them using spell slots. The maximum Focus Points your focus pool can hold is equal to the number of focus spells you have, but can never be more than 3 points. You learn the initial bloodline spell, which is unique to your bloodline.</p><h3>Reading a Bloodline Entry</h3><p>A bloodline entry contains the following information.</p>\n<p><strong>Tradition</strong> You use this magical tradition and spell list</p>\n<p><strong>Bloodline Skills</strong> You become trained in the listed skills.</p>\n<p><strong>Sorcerous Gifts</strong> You automatically add the spells listed here to your spell repertoire, as described in the Spell Repertoire feature. At 1st level, you gain a cantrip and a 1st-rank spell. You learn the other spells on the list as soon as you gain the ability to cast sorcerer spells of that rank.</p>\n<p><strong>Bloodline Spells</strong> You automatically gain the initial bloodline spell at 1st level and can gain more by selecting the Advanced Bloodline and Greater Bloodline feats.</p>\n<p><strong>Blood Magic</strong> Whenever you cast a bloodline spell using a Focus Point or a sorcerous gift spell using a spell slot, you choose one blood magic effect you know to benefit from. You begin play with the benefit listed in your bloodline and can gain others through sorcerer feats.</p>\n<p>If the blood magic effect offers a choice, make it before resolving the spell. The blood magic effect occurs after resolving any checks for the spell's initial effects and, against a foe, applies only if the spell is a successful attack or the foe fails its saving throw. If the spell has an area, you must designate yourself or one target in the area when you cast the spell to be the target of the blood magic effect. All references to spell rank refer to the rank of the spell you cast.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core 2",
+          "authors": ""
+        },
+        "rules": [],
+        "traits": {
+          "rarity": "common",
+          "value": [
+            "sorcerer"
+          ],
+          "otherTags": []
+        },
+        "slug": "bloodline-spells",
+        "_migration": {
+          "version": 0.939,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": "VfRxpAc5uhKmk6Cw"
+      },
+      "type": "feat",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748715441562,
+        "modifiedTime": 1748715441562,
+        "lastModifiedBy": "i7YMNQekWjArIjJH"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {}
+    },
+    {
+      "_id": "UWn7duFf65zXUjhD",
+      "folder": "ujjBTcgWjsAQJA9n",
+      "img": "icons/sundries/books/book-red-exclamation.webp",
+      "name": "Vampire Lore",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "ancestry",
+        "description": {
+          "value": "<p>You were raised by your vampiric parent, or you've invested substantial time and energy researching the secrets of your undead progenitors. You're trained in Religion and Society. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice.</p>\n<p>You also gain the @UUID[Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x]{Additional Lore} general feat for Vampire Lore.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core 2",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "key": "ActiveEffectLike",
+            "mode": "upgrade",
+            "path": "system.skills.society.rank",
+            "value": 1
+          },
+          {
+            "key": "ActiveEffectLike",
+            "mode": "upgrade",
+            "path": "system.skills.religion.rank",
+            "value": 1
+          },
+          {
+            "key": "GrantItem",
+            "uuid": "Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x",
+            "flag": "additionalLore"
+          }
+        ],
+        "traits": {
+          "rarity": "common",
+          "value": [
+            "dhampir"
+          ],
+          "otherTags": []
+        },
+        "slug": "vampire-lore",
+        "_migration": {
+          "version": 0.939,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": "ancestry-1"
+      },
+      "type": "feat",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748715441846,
+        "modifiedTime": 1748715442157,
+        "lastModifiedBy": "i7YMNQekWjArIjJH"
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {
+        "pf2e": {
+          "itemGrants": {
+            "additionalLore": {
+              "id": "oJhResohpSbNVQfi",
+              "onDelete": "detach"
+            }
+          }
+        }
+      }
+    },
+    {
+      "folder": "y1yqadf5jPHJk1jW",
+      "img": "icons/sundries/books/book-red-exclamation.webp",
+      "name": "Additional Lore",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "skill",
+        "description": {
+          "value": "<p>Your knowledge has expanded to encompass a new field. Choose a Lore skill subcategory. You become trained in it. At 3rd, 7th, and 15th levels, you gain an additional skill increase you can apply only to the chosen Lore subcategory.</p><hr /><p><strong>Special</strong> You can select this feat more than once. Each time you must select a new subcategory of Lore and you gain the additional skill increases to that subcategory for the listed levels.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1
+        },
+        "maxTakable": null,
+        "prerequisites": {
+          "value": []
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core",
+          "authors": ""
+        },
+        "rules": [],
+        "traits": {
+          "rarity": "common",
+          "value": [
+            "general",
+            "skill"
+          ],
+          "otherTags": []
+        },
+        "slug": "additional-lore",
+        "_migration": {
+          "version": 0.939,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        },
+        "onlyLevel1": false,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": null
+      },
+      "type": "feat",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748715442392,
+        "modifiedTime": 1748715442392,
+        "lastModifiedBy": "i7YMNQekWjArIjJH"
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {
+        "pathmuncher": {
+          "origin": {
+            "uuid": "Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x"
+          }
+        },
+        "pf2e": {
+          "grantedBy": {
+            "id": "UWn7duFf65zXUjhD",
+            "onDelete": "cascade"
+          }
+        }
+      },
+      "_id": "oJhResohpSbNVQfi"
+    },
+    {
+      "_id": "yPehmOTxeNyufSKX",
+      "name": "Sorcerer",
+      "type": "spellcastingEntry",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.939,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "ability": {
+          "value": "cha"
+        },
+        "spelldc": {
+          "value": 0,
+          "dc": 0,
+          "item": 0
+        },
+        "tradition": {
+          "value": "divine"
+        },
+        "prepared": {
+          "value": "spontaneous",
+          "flexible": false
+        },
+        "showSlotlessLevels": {
+          "value": true
+        },
+        "proficiency": {
+          "value": 1
+        },
+        "slots": {
+          "slot0": {
+            "prepared": {
+              "0": {
+                "id": "Qu4otWNL7bIhNiHn"
+              },
+              "1": {
+                "id": "lwuLHU5cm2nm8NjF"
+              },
+              "2": {
+                "id": "QqaJvD424AEXjEk7"
+              },
+              "3": {
+                "id": "280vhHMvAUTFmrSN"
+              },
+              "4": {
+                "id": "hLCTNC8WqD7GGCVy"
+              }
+            },
+            "value": 5,
+            "max": 5
+          },
+          "slot1": {
+            "prepared": {
+              "0": {
+                "id": "zoIzGcMsRrf65Ua6"
+              },
+              "1": {
+                "id": "yhuHwGCNQrNIrI8B"
+              },
+              "2": {
+                "id": "83Nhm0vMuNH3eTn8"
+              }
+            },
+            "value": 1,
+            "max": 3
+          },
+          "slot2": {
+            "prepared": {},
+            "value": 0,
+            "max": 0
+          },
+          "slot3": {
+            "prepared": {},
+            "value": 0,
+            "max": 0
+          },
+          "slot4": {
+            "prepared": {},
+            "value": 0,
+            "max": 0
+          },
+          "slot5": {
+            "prepared": {},
+            "value": 0,
+            "max": 0
+          },
+          "slot6": {
+            "prepared": {},
+            "value": 0,
+            "max": 0
+          },
+          "slot7": {
+            "prepared": {},
+            "value": 0,
+            "max": 0
+          },
+          "slot8": {
+            "prepared": {},
+            "value": 0,
+            "max": 0
+          },
+          "slot9": {
+            "prepared": {},
+            "value": 0,
+            "max": 0
+          },
+          "slot10": {
+            "prepared": {},
+            "value": 0,
+            "max": 0
+          },
+          "slot11": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          }
+        },
+        "autoHeightenLevel": {
+          "value": null
+        },
+        "showUnpreparedSpells": {
+          "value": true
+        }
+      },
+      "effects": [],
+      "img": "systems/pf2e/icons/default-icons/spellcastingEntry.svg",
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "7.1.1",
+        "createdTime": 1748715442672,
+        "modifiedTime": 1750528562746,
+        "lastModifiedBy": "i7YMNQekWjArIjJH"
+      }
+    },
+    {
+      "_id": "mBQ8fy7SvUag5SmU",
+      "name": "Divine Focus Tradition",
+      "type": "spellcastingEntry",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.939,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "ability": {
+          "value": "cha"
+        },
+        "spelldc": {
+          "value": 0,
+          "dc": 0,
+          "item": 0
+        },
+        "tradition": {
+          "value": "divine"
+        },
+        "prepared": {
+          "value": "focus",
+          "flexible": false
+        },
+        "showSlotlessLevels": {
+          "value": true
+        },
+        "proficiency": {
+          "value": 1
+        },
+        "slots": {
+          "slot0": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot1": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot2": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot3": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot4": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot5": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot6": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot7": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot8": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot9": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot10": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot11": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          }
+        },
+        "autoHeightenLevel": {
+          "value": null
+        },
+        "showUnpreparedSpells": {
+          "value": true
+        }
+      },
+      "effects": [],
+      "img": "systems/pf2e/icons/default-icons/spellcastingEntry.svg",
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748715442672,
+        "modifiedTime": 1748715442672,
+        "lastModifiedBy": "i7YMNQekWjArIjJH"
+      }
+    },
+    {
+      "_id": "Qu4otWNL7bIhNiHn",
+      "folder": "D7UVaOiB40wTR6kv",
+      "img": "systems/pf2e/icons/spells/shield.webp",
+      "name": "Shield",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You raise a magical shield of force. This counts as using the Raise a Shield action, giving you a +1 circumstance bonus to AC until the start of your next turn, but it doesn't require a hand to use.</p>\n<p>While the spell is in effect, you can use the @UUID[Compendium.pf2e.feats-srd.Item.jM72TjJ965jocBV8]{Shield Block} reaction with your magic shield. The shield has Hardness 5. You can use the spell's reaction to reduce damage from any spell or magical effect, even if it doesn't deal physical damage. After you use Shield Block, the spell ends and you can't cast it again for 10 minutes.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.Jemq5UknGdMO7b73]{Spell Effect: Shield}</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.QF6RDlCoTvkVHRo4]{Effect: Shield Immunity}</p>\n<hr />\n<p><strong>Heightened (+2)</strong> The shield's Hardness increases by 5.</p>"
+        },
+        "rules": [],
+        "slug": "shield",
+        "_migration": {
+          "version": 0.939,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "cantrip",
+            "concentrate",
+            "force"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "divine",
+            "occult"
+          ]
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1
+        },
+        "requirements": "",
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": ""
+        },
+        "area": null,
+        "time": {
+          "value": "1"
+        },
+        "duration": {
+          "value": "until the start of your next turn",
+          "sustained": false
+        },
+        "damage": {},
+        "defense": null,
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "yPehmOTxeNyufSKX",
+          "heightenedLevel": 0
+        },
+        "counteraction": false
+      },
+      "type": "spell",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748715442989,
+        "modifiedTime": 1748715442989,
+        "lastModifiedBy": "i7YMNQekWjArIjJH"
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {}
+    },
+    {
+      "_id": "lwuLHU5cm2nm8NjF",
+      "folder": "D7UVaOiB40wTR6kv",
+      "img": "icons/skills/ranged/bullets-triple-ball-yellow.webp",
+      "name": "Telekinetic Projectile",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You hurl a loose, unattended object that is within range and that has 1 Bulk or less at the target. Make a spell attack roll against the target. If you hit, you deal 2d6 bludgeoning, piercing, or slashing damage—as appropriate for the object you hurled. No specific traits or magic properties of the hurled item affect the attack or the damage.</p>\n<hr />\n<p><strong>Critical Success</strong> You deal double damage.</p>\n<p><strong>Success</strong> You deal full damage.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 1d6.</p>"
+        },
+        "rules": [],
+        "slug": "telekinetic-projectile",
+        "_migration": {
+          "version": 0.939,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "attack",
+            "cantrip",
+            "concentrate",
+            "manipulate"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "occult"
+          ]
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1
+        },
+        "requirements": "",
+        "target": {
+          "value": "1 creature"
+        },
+        "range": {
+          "value": "30 feet"
+        },
+        "area": null,
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "",
+          "sustained": false
+        },
+        "damage": {
+          "0": {
+            "applyMod": false,
+            "category": null,
+            "formula": "2d6",
+            "kinds": [
+              "damage"
+            ],
+            "materials": [],
+            "type": "untyped"
+          }
+        },
+        "defense": null,
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "yPehmOTxeNyufSKX",
+          "heightenedLevel": 0
+        },
+        "counteraction": false,
+        "heightening": {
+          "damage": {
+            "0": "1d6"
+          },
+          "interval": 1,
+          "type": "interval"
+        },
+        "overlays": {
+          "2I469pfbYcmFvzOA": {
+            "_id": "2I469pfbYcmFvzOA",
+            "name": "Telekinetic Projectile (Bludgeoning)",
+            "overlayType": "override",
+            "sort": 1,
+            "system": {
+              "damage": {
+                "0": {
+                  "category": null,
+                  "type": "bludgeoning"
+                }
+              }
+            }
+          },
+          "cUFX7ExSLeoa3vIF": {
+            "_id": "cUFX7ExSLeoa3vIF",
+            "name": "Telekinetic Projectile (Piercing)",
+            "overlayType": "override",
+            "sort": 2,
+            "system": {
+              "damage": {
+                "0": {
+                  "category": null,
+                  "type": "piercing"
+                }
+              }
+            }
+          },
+          "zFWsMjoeCnLxqJaV": {
+            "_id": "zFWsMjoeCnLxqJaV",
+            "name": "Telekinetic Projectile (Slashing)",
+            "overlayType": "override",
+            "sort": 3,
+            "system": {
+              "damage": {
+                "0": {
+                  "category": null,
+                  "type": "slashing"
+                }
+              }
+            }
+          }
+        }
+      },
+      "type": "spell",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748715442989,
+        "modifiedTime": 1748715442989,
+        "lastModifiedBy": "i7YMNQekWjArIjJH"
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {}
+    },
+    {
+      "_id": "QqaJvD424AEXjEk7",
+      "folder": "D7UVaOiB40wTR6kv",
+      "img": "systems/pf2e/icons/spells/warp-step.webp",
+      "name": "Warp Step",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>When you walk, the earth warps beneath your feet-your steps extend, distance contracts, and everything is just a little bit closer. You gain a +5-foot status bonus to your Speed until the end of your turn. You then Stride twice. You can use warp step to Burrow, Climb, Fly, or Swim instead of Stride if you have the corresponding movement type.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.9Tl9jGUKoj0wS73d]{Spell Effect: Warp Step}</p>"
+        },
+        "rules": [],
+        "slug": "warp-step",
+        "_migration": {
+          "version": 0.939,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "cantrip",
+            "concentrate",
+            "manipulate"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "occult"
+          ]
+        },
+        "publication": {
+          "title": "Pathfinder Dark Archive",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 1
+        },
+        "requirements": "",
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": ""
+        },
+        "area": null,
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "",
+          "sustained": false
+        },
+        "damage": {},
+        "defense": null,
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "yPehmOTxeNyufSKX",
+          "heightenedLevel": 0
+        },
+        "counteraction": false
+      },
+      "type": "spell",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748715442989,
+        "modifiedTime": 1748715442989,
+        "lastModifiedBy": "i7YMNQekWjArIjJH"
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {}
+    },
+    {
+      "_id": "280vhHMvAUTFmrSN",
+      "folder": "D7UVaOiB40wTR6kv",
+      "img": "icons/magic/lightning/bolt-strike-forked-blue.webp",
+      "name": "Electric Arc",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>An arc of lightning leaps from one target to another. Each target takes 2d4 electricity damage with a basic Reflex save.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 1d4.</p>"
+        },
+        "rules": [],
+        "slug": "electric-arc",
+        "_migration": {
+          "version": 0.939,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "cantrip",
+            "concentrate",
+            "electricity",
+            "manipulate"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "primal"
+          ]
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1
+        },
+        "requirements": "",
+        "target": {
+          "value": "1 or 2 creatures"
+        },
+        "range": {
+          "value": "30 feet"
+        },
+        "area": null,
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "",
+          "sustained": false
+        },
+        "damage": {
+          "0": {
+            "applyMod": false,
+            "category": null,
+            "formula": "2d4",
+            "kinds": [
+              "damage"
+            ],
+            "materials": [],
+            "type": "electricity"
+          }
+        },
+        "defense": {
+          "save": {
+            "basic": true,
+            "statistic": "reflex"
+          }
+        },
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "yPehmOTxeNyufSKX",
+          "heightenedLevel": 0
+        },
+        "counteraction": false,
+        "heightening": {
+          "damage": {
+            "0": "1d4"
+          },
+          "interval": 1,
+          "type": "interval"
+        }
+      },
+      "type": "spell",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748715442989,
+        "modifiedTime": 1748715442989,
+        "lastModifiedBy": "i7YMNQekWjArIjJH"
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {}
+    },
+    {
+      "_id": "hLCTNC8WqD7GGCVy",
+      "folder": "D7UVaOiB40wTR6kv",
+      "img": "systems/pf2e/icons/spells/chill-touch.webp",
+      "name": "Void Warp",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You call upon the Void to harm life force. The target takes 2d4 void damage with a basic Fortitude save. On a critical failure, the target is also @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1} until the start of your next turn.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 1d4.</p>"
+        },
+        "rules": [],
+        "slug": "void-warp",
+        "_migration": {
+          "version": 0.939,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "cantrip",
+            "concentrate",
+            "manipulate",
+            "void"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "divine",
+            "occult"
+          ]
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1
+        },
+        "requirements": "",
+        "target": {
+          "value": "1 living creature"
+        },
+        "range": {
+          "value": "30 feet"
+        },
+        "area": null,
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "",
+          "sustained": false
+        },
+        "damage": {
+          "0": {
+            "applyMod": false,
+            "category": null,
+            "formula": "2d4",
+            "kinds": [
+              "damage"
+            ],
+            "materials": [],
+            "type": "void"
+          }
+        },
+        "defense": {
+          "save": {
+            "basic": true,
+            "statistic": "fortitude"
+          }
+        },
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "yPehmOTxeNyufSKX",
+          "heightenedLevel": 0
+        },
+        "counteraction": false,
+        "heightening": {
+          "damage": {
+            "0": "1d4"
+          },
+          "interval": 1,
+          "type": "interval"
+        }
+      },
+      "type": "spell",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748715442989,
+        "modifiedTime": 1748715442989,
+        "lastModifiedBy": "i7YMNQekWjArIjJH"
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {}
+    },
+    {
+      "_id": "yhuHwGCNQrNIrI8B",
+      "folder": "T8AzYUgNIAgTJ9Iz",
+      "img": "systems/pf2e/icons/spells/fear.webp",
+      "name": "Fear",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You plant fear in the target; it must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}.</p>\n<p><strong>Failure</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2}.</p>\n<p><strong>Critical Failure</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 3} and @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{Fleeing} for 1 round.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> You can target up to five creatures.</p>"
+        },
+        "rules": [],
+        "slug": "fear",
+        "_migration": {
+          "version": 0.939,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "concentrate",
+            "emotion",
+            "fear",
+            "manipulate",
+            "mental"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "divine",
+            "occult",
+            "primal"
+          ]
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1
+        },
+        "requirements": "",
+        "target": {
+          "value": "1 creature"
+        },
+        "range": {
+          "value": "30 feet"
+        },
+        "area": null,
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "varies",
+          "sustained": false
+        },
+        "damage": {},
+        "defense": {
+          "save": {
+            "basic": false,
+            "statistic": "will"
+          }
+        },
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "yPehmOTxeNyufSKX",
+          "heightenedLevel": 1
+        },
+        "counteraction": false,
+        "heightening": {
+          "levels": {
+            "3": {
+              "target": {
+                "value": "5 creatures"
+              }
+            }
+          },
+          "type": "fixed"
+        }
+      },
+      "type": "spell",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748715442989,
+        "modifiedTime": 1748715442989,
+        "lastModifiedBy": "i7YMNQekWjArIjJH"
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {}
+    },
+    {
+      "_id": "83Nhm0vMuNH3eTn8",
+      "folder": "T8AzYUgNIAgTJ9Iz",
+      "img": "systems/pf2e/icons/spells/harm.webp",
+      "name": "Harm",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You channel void energy to harm the living or heal the undead. If the target is a living creature, you deal 1d8 void damage to it, and it gets a basic Fortitude save. If the target is a willing undead creature, you restore that amount of Hit Points. The number of actions you spend when Casting this Spell determines its targets, range, area, and other parameters.</p>\n<p><span class=\"action-glyph\">1</span> The spell has a range of touch.</p>\n<p><span class=\"action-glyph\">2</span> <strong>(concentrate)</strong> The spell has a range of 30 feet. If you're healing an undead creature, increase the Hit Points restored by 8.</p>\n<p><span class=\"action-glyph\">3</span> <strong>(concentrate)</strong> You disperse void energy in a @Template[emanation|distance:30]. This targets all living and undead creatures in the area.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The amount of healing or damage increases by 1d8, and the extra healing for the 2-action version increases by 8.</p>"
+        },
+        "rules": [],
+        "slug": "harm",
+        "_migration": {
+          "version": 0.939,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "manipulate",
+            "void"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "divine"
+          ]
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1
+        },
+        "requirements": "",
+        "target": {
+          "value": "1 living creature or 1 willing undead creature"
+        },
+        "range": {
+          "value": "varies"
+        },
+        "area": null,
+        "time": {
+          "value": "1 to 3"
+        },
+        "duration": {
+          "value": "",
+          "sustained": false
+        },
+        "damage": {
+          "0": {
+            "applyMod": false,
+            "category": null,
+            "formula": "1d8",
+            "kinds": [
+              "damage",
+              "healing"
+            ],
+            "materials": [],
+            "type": "void"
+          }
+        },
+        "defense": {
+          "save": {
+            "basic": true,
+            "statistic": "fortitude"
+          }
+        },
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "yPehmOTxeNyufSKX",
+          "heightenedLevel": 1
+        },
+        "counteraction": false,
+        "heightening": {
+          "damage": {
+            "0": "1d8"
+          },
+          "interval": 1,
+          "type": "interval"
+        },
+        "overlays": {
+          "4gyp3qlsv5ywdyjq": {
+            "_id": "4gyp3qlsv5ywdyjq",
+            "name": "Harm (vs. Undead)",
+            "overlayType": "override",
+            "sort": 3,
+            "system": {
+              "damage": {
+                "0": {
+                  "formula": "1d8+8",
+                  "kinds": [
+                    "healing"
+                  ]
+                }
+              },
+              "defense": null,
+              "heightening": {
+                "damage": {
+                  "0": "1d8+8"
+                }
+              },
+              "range": {
+                "value": "30 feet"
+              },
+              "target": {
+                "value": "1 willing undead creature"
+              },
+              "time": {
+                "value": "2"
+              },
+              "traits": {
+                "value": [
+                  "concentrate",
+                  "manipulate",
+                  "void"
+                ]
+              }
+            }
+          },
+          "pq7cxntbz4s8g5ik": {
+            "_id": "pq7cxntbz4s8g5ik",
+            "overlayType": "override",
+            "sort": 1,
+            "system": {
+              "range": {
+                "value": "touch"
+              },
+              "time": {
+                "value": "1"
+              }
+            }
+          },
+          "rvhoa43rqqqp8izn": {
+            "_id": "rvhoa43rqqqp8izn",
+            "overlayType": "override",
+            "sort": 4,
+            "system": {
+              "area": {
+                "type": "emanation",
+                "value": 30
+              },
+              "range": {
+                "value": ""
+              },
+              "target": {
+                "value": "all living and undead creatures"
+              },
+              "time": {
+                "value": "3"
+              },
+              "traits": {
+                "value": [
+                  "concentrate",
+                  "manipulate",
+                  "void"
+                ]
+              }
+            }
+          },
+          "z04svm1cvfcxtplb": {
+            "_id": "z04svm1cvfcxtplb",
+            "name": "Harm (vs. Living)",
+            "overlayType": "override",
+            "sort": 2,
+            "system": {
+              "damage": {
+                "0": {
+                  "kinds": [
+                    "damage"
+                  ]
+                }
+              },
+              "range": {
+                "value": "30 feet"
+              },
+              "target": {
+                "value": "1 living creature"
+              },
+              "time": {
+                "value": "2"
+              },
+              "traits": {
+                "value": [
+                  "concentrate",
+                  "manipulate",
+                  "void"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "type": "spell",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748715442989,
+        "modifiedTime": 1748715442989,
+        "lastModifiedBy": "i7YMNQekWjArIjJH"
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {}
+    },
+    {
+      "_id": "RXvSwqPafsUkMGHd",
+      "folder": "wnvibtD90h7CStDC",
+      "img": "icons/commodities/bones/bones-hand-grey.webp",
+      "name": "Undeath's Blessing",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You instill within a creature the touch of the grave. For the duration, @UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{Harm} and @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Heal} spells treat the creature as undead. In addition, <em>harm</em> spells gain a +2 status bonus to the Hit Points restored to the target. An unwilling target can attempt a Will save to reduce the effects.</p><hr /><p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target heals half as much from <em>heal</em> and takes half as much damage from <em>harm</em> for 1 round.</p>\n<p><strong>Failure</strong> Effects as described above.</p><hr /><p><strong>Heightened (+1)</strong> The status bonus to the Hit Points restored increases by 2.</p>"
+        },
+        "rules": [],
+        "slug": "undeaths-blessing",
+        "_migration": {
+          "version": 0.939,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "focus",
+            "manipulate",
+            "sorcerer",
+            "void"
+          ],
+          "rarity": "uncommon",
+          "traditions": []
+        },
+        "publication": {
+          "title": "Pathfinder Player Core 2",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1
+        },
+        "requirements": "",
+        "target": {
+          "value": "1 living creature touched"
+        },
+        "range": {
+          "value": "touch"
+        },
+        "area": null,
+        "time": {
+          "value": "1"
+        },
+        "duration": {
+          "value": "1 minute",
+          "sustained": false
+        },
+        "damage": {},
+        "defense": {
+          "save": {
+            "basic": false,
+            "statistic": "will"
+          }
+        },
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "mBQ8fy7SvUag5SmU"
+        },
+        "counteraction": false
+      },
+      "type": "spell",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748715442989,
+        "modifiedTime": 1748715442989,
+        "lastModifiedBy": "i7YMNQekWjArIjJH"
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {}
+    },
+    {
+      "_id": "d22hGqL2axnpA5DR",
+      "img": "systems/pf2e/icons/equipment/treasure/currency/platinum-pieces.webp",
+      "name": "Platinum Pieces",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": "platinum-pieces",
+        "_migration": {
+          "version": 0.939,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 0,
+        "baseItem": null,
+        "bulk": {
+          "value": 1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "pp": 1
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "stackGroup": "coins"
+      },
+      "type": "treasure",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748715443484,
+        "modifiedTime": 1748715443484,
+        "lastModifiedBy": "i7YMNQekWjArIjJH"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {}
+    },
+    {
+      "_id": "NanI5xTbyWeRPsk8",
+      "img": "systems/pf2e/icons/equipment/treasure/currency/gold-pieces.webp",
+      "name": "Gold Pieces",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": "gold-pieces",
+        "_migration": {
+          "version": 0.939,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 30,
+        "baseItem": null,
+        "bulk": {
+          "value": 1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 1
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "stackGroup": "coins"
+      },
+      "type": "treasure",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748715443484,
+        "modifiedTime": 1748715811571,
+        "lastModifiedBy": "i7YMNQekWjArIjJH"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {}
+    },
+    {
+      "_id": "M9rdk4h01AW1aZPd",
+      "img": "systems/pf2e/icons/equipment/treasure/currency/silver-pieces.webp",
+      "name": "Silver Pieces",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": "silver-pieces",
+        "_migration": {
+          "version": 0.939,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 0,
+        "baseItem": null,
+        "bulk": {
+          "value": 1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "sp": 1
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "stackGroup": "coins"
+      },
+      "type": "treasure",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748715443484,
+        "modifiedTime": 1748715443484,
+        "lastModifiedBy": "i7YMNQekWjArIjJH"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {}
+    },
+    {
+      "_id": "PZ3QLwdRxtUeuywE",
+      "img": "systems/pf2e/icons/equipment/treasure/currency/copper-pieces.webp",
+      "name": "Copper Pieces",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": "copper-pieces",
+        "_migration": {
+          "version": 0.939,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 0,
+        "baseItem": null,
+        "bulk": {
+          "value": 1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "cp": 1
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "stackGroup": "coins"
+      },
+      "type": "treasure",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748715443484,
+        "modifiedTime": 1748715443484,
+        "lastModifiedBy": "i7YMNQekWjArIjJH"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {}
+    },
+    {
+      "folder": "T8AzYUgNIAgTJ9Iz",
+      "img": "systems/pf2e/icons/spells/magic-missile.webp",
+      "name": "Force Barrage",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You fire a shard of solidified magic toward a creature that you can see. It automatically hits and deals 1d4+1 force damage. For each additional action you use when Casting the Spell, increase the number of shards you shoot by one, to a maximum of three shards for 3 actions. You choose the target for each shard individually. If you shoot more than one shard at the same target, combine the damage before applying bonuses or penalties to damage, resistances, weaknesses, and so forth.</p>\n<hr />\n<p><strong>Heightened (+2)</strong> You fire one additional shard with each action you spend.</p>"
+        },
+        "rules": [],
+        "slug": "force-barrage",
+        "_migration": {
+          "version": 0.939,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "concentrate",
+            "force",
+            "manipulate"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "occult"
+          ]
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1
+        },
+        "requirements": "",
+        "target": {
+          "value": "1 creature"
+        },
+        "range": {
+          "value": "120 feet"
+        },
+        "area": null,
+        "time": {
+          "value": "1 to 3"
+        },
+        "duration": {
+          "value": "",
+          "sustained": false
+        },
+        "damage": {
+          "0": {
+            "applyMod": false,
+            "category": null,
+            "formula": "1d4+1",
+            "kinds": [
+              "damage"
+            ],
+            "materials": [],
+            "type": "force"
+          }
+        },
+        "defense": null,
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "yPehmOTxeNyufSKX",
+          "heightenedLevel": 1
+        },
+        "counteraction": false,
+        "overlays": {}
+      },
+      "type": "spell",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748716218106,
+        "modifiedTime": 1748716218106,
+        "lastModifiedBy": "i7YMNQekWjArIjJH"
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {},
+      "_id": "kR2dTEgaT9CtxKzp"
+    },
+    {
+      "folder": "D7UVaOiB40wTR6kv",
+      "img": "systems/pf2e/icons/spells/inside-ropes.webp",
+      "name": "Inside Ropes",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You pull a large handful of guts from your midsection. Removing these guts doesn't harm you. You can use the guts as 50 feet of rope to help you @UUID[Compendium.pf2e.actionspf2e.Item.pprgrYQ1QnIDGZiy]{Climb}, and they help attach you to a wall. You move half as quickly as usual while climbing with your guts (minimum 5 feet), but you can attempt a @Check[flat|dc:5] check whenever you critically fail to prevent a fall. Other creatures can use your guts to climb like a squishy rope, but the guts don't help anyone but you attach to a wall. If you let go of your guts or your guts are damaged, the spell ends.</p><hr /><p><strong>Heightened (3rd)</strong> You gain a +1 item bonus to Athletics checks to Climb while using your guts.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.T3t9776ataHzrmTs]{Spell Effect: Inside Ropes (3rd Rank)}</p>"
+        },
+        "rules": [],
+        "slug": "inside-ropes",
+        "_migration": {
+          "version": 0.939,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "cantrip",
+            "manipulate"
+          ],
+          "rarity": "uncommon",
+          "traditions": [
+            "divine",
+            "occult",
+            "primal"
+          ]
+        },
+        "publication": {
+          "title": "Pathfinder #181: Zombie Feast",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 1
+        },
+        "requirements": "",
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": ""
+        },
+        "area": null,
+        "time": {
+          "value": "1"
+        },
+        "duration": {
+          "value": "10 minutes",
+          "sustained": false
+        },
+        "damage": {},
+        "defense": null,
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "yPehmOTxeNyufSKX"
+        },
+        "counteraction": false
+      },
+      "type": "spell",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748717135197,
+        "modifiedTime": 1748717135197,
+        "lastModifiedBy": "LjBpReNccZVffF8t"
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {},
+      "_id": "RkCLS7PtLHaJ7suB"
+    }
+  ],
+  "folder": null,
+  "flags": {
+    "pathmuncher": {
+      "pathbuilderId": 174860,
+      "addMoney": true,
+      "addFeats": true,
+      "addSpells": true,
+      "adjustBlendedSlots": true,
+      "addEquipment": true,
+      "addTreasure": true,
+      "addLores": true,
+      "addWeapons": true,
+      "addArmor": true,
+      "addDeity": true,
+      "addName": true,
+      "addClass": true,
+      "addBackground": true,
+      "addHeritage": true,
+      "addAncestry": true,
+      "addFamiliars": true,
+      "addFormulas": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "13.344",
+    "systemId": "pf2e",
+    "systemVersion": "7.1.1",
+    "createdTime": 1748712988975,
+    "modifiedTime": 1750516308496,
+    "lastModifiedBy": "LjBpReNccZVffF8t",
+    "exportSource": {
+      "worldId": "bombaclot",
+      "uuid": "Actor.EQ5bYr1qIwUx55hU",
+      "coreVersion": "13.344",
+      "systemId": "pf2e",
+      "systemVersion": "7.1.1"
+    }
+  }
+}

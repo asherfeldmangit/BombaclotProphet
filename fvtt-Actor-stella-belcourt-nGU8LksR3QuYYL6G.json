@@ -1,0 +1,5414 @@
+{
+  "prototypeToken": {
+    "displayName": 20,
+    "displayBars": 20,
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      },
+      "healthEstimate": {
+        "dontMarkDead": false,
+        "hideHealthEstimate": false,
+        "hideName": false
+      }
+    },
+    "height": 1,
+    "width": 1,
+    "actorLink": true,
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "name": "Stella Belcourt",
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "tokenizer/pc-images/stella_belcourt.Token.wNmipi9CrrmrDRod.webp?1748689393103",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 0,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "name": "Stella Belcourt",
+  "type": "character",
+  "effects": [],
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 18,
+        "temp": 0
+      },
+      "speed": {
+        "value": 25,
+        "otherSpeeds": []
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [
+          "aklo"
+        ],
+        "details": ""
+      },
+      "level": {
+        "value": 1
+      },
+      "biography": {
+        "appearance": "",
+        "backstory": "",
+        "birthPlace": "",
+        "attitude": "",
+        "beliefs": "",
+        "anathema": [],
+        "edicts": [],
+        "likes": "",
+        "dislikes": "",
+        "catchphrases": "",
+        "campaignNotes": "",
+        "allies": "",
+        "enemies": "",
+        "organizations": "",
+        "visibility": {
+          "appearance": true,
+          "backstory": false,
+          "personality": false,
+          "campaign": false
+        }
+      },
+      "keyability": {
+        "value": "wis"
+      },
+      "xp": {
+        "value": 0,
+        "min": 0,
+        "max": 1000,
+        "pct": 0
+      },
+      "age": {
+        "value": ""
+      },
+      "height": {
+        "value": ""
+      },
+      "weight": {
+        "value": ""
+      },
+      "gender": {
+        "value": "she/her"
+      },
+      "ethnicity": {
+        "value": ""
+      },
+      "nationality": {
+        "value": ""
+      },
+      "alliance": "party"
+    },
+    "resources": {
+      "heroPoints": {
+        "value": 1,
+        "max": 3
+      },
+      "focus": {
+        "max": 2,
+        "value": 2
+      }
+    },
+    "_migration": {
+      "version": 0.939,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.344",
+        "system": "7.1.1"
+      }
+    },
+    "abilities": null,
+    "skills": {
+      "acrobatics": {
+        "rank": 1
+      },
+      "arcana": {
+        "rank": 0
+      },
+      "athletics": {
+        "rank": 0
+      },
+      "crafting": {
+        "rank": 0
+      },
+      "deception": {
+        "rank": 0
+      },
+      "diplomacy": {
+        "rank": 0
+      },
+      "intimidation": {
+        "rank": 0
+      },
+      "medicine": {
+        "rank": 0
+      },
+      "nature": {
+        "rank": 1
+      },
+      "occultism": {
+        "rank": 1
+      },
+      "performance": {
+        "rank": 0
+      },
+      "religion": {
+        "rank": 1
+      },
+      "society": {
+        "rank": 1
+      },
+      "stealth": {
+        "rank": 0
+      },
+      "survival": {
+        "rank": 0
+      },
+      "thievery": {
+        "rank": 0
+      }
+    },
+    "pfs": {
+      "playerNumber": null,
+      "characterNumber": null,
+      "levelBump": false,
+      "currentFaction": "EA",
+      "school": null,
+      "reputation": {
+        "EA": null,
+        "GA": null,
+        "HH": null,
+        "VS": null,
+        "RO": null,
+        "VW": null
+      }
+    },
+    "exploration": [
+      "y3WKn8LwrFNdk0Mh"
+    ],
+    "build": {
+      "attributes": {
+        "boosts": {
+          "1": [
+            "wis",
+            "con",
+            "dex",
+            "int"
+          ]
+        }
+      }
+    },
+    "traits": {
+      "size": {
+        "value": "med"
+      },
+      "senses": [
+        {
+          "type": "lowLightVision"
+        }
+      ]
+    },
+    "savingThrows": {
+      "fortitude": 1,
+      "reflex": 1,
+      "will": 2
+    },
+    "martial": {
+      "advanced": {
+        "rank": 0
+      },
+      "heavy": {
+        "rank": 0
+      },
+      "light": {
+        "rank": 1
+      },
+      "medium": {
+        "rank": 1
+      },
+      "unarmored": {
+        "rank": 1
+      },
+      "martial": {
+        "rank": 0
+      },
+      "simple": {
+        "rank": 1
+      },
+      "unarmed": {
+        "rank": 1
+      }
+    },
+    "crafting": {
+      "formulas": [
+        {
+          "uuid": "Compendium.pf2e.equipment-srd.Item.UMAXLDpI6YLSfYX1"
+        },
+        {
+          "uuid": "Compendium.pf2e.equipment-srd.Item.L9ZV076913otGtiB"
+        }
+      ]
+    }
+  },
+  "img": "tokenizer/pc-images/stella_belcourt_v2.Avatar.webp?1748689393103",
+  "items": [
+    {
+      "_id": "tLmxvRXvCnUnJmOH",
+      "img": "systems/pf2e/icons/default-icons/alternatives/ancestries/fetchling.svg",
+      "name": "Fetchling",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><em>Once human and now something apart, fetchlings display the Shadow Plane's ancient influence through monochrome complexions, glowing eyes, and the casting of supernatural shadows.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.45SK8rdbbxvEHfMn.JournalEntryPage.RlMgeku1FNJjF7YR]{Fetchling}</em></p>"
+        },
+        "rules": [
+          {
+            "key": "ActiveEffectLike",
+            "mode": "override",
+            "path": "flags.pf2e.colorDarkvision",
+            "value": true
+          }
+        ],
+        "slug": "fetchling",
+        "_migration": {
+          "version": 0.939,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "fetchling",
+            "humanoid"
+          ],
+          "rarity": "uncommon"
+        },
+        "publication": {
+          "title": "Pathfinder Lost Omens Ancestry Guide",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "hp": 8,
+        "size": "med",
+        "reach": 5,
+        "speed": 25,
+        "boosts": {
+          "0": {
+            "value": [
+              "dex"
+            ],
+            "selected": "dex"
+          },
+          "1": {
+            "value": []
+          },
+          "2": {
+            "value": [
+              "str",
+              "dex",
+              "con",
+              "int",
+              "wis",
+              "cha"
+            ],
+            "selected": "wis"
+          }
+        },
+        "flaws": {
+          "0": {
+            "value": []
+          }
+        },
+        "languages": {
+          "value": [
+            "common",
+            "shadowtongue"
+          ],
+          "custom": ""
+        },
+        "additionalLanguages": {
+          "count": 0,
+          "value": [
+            "aklo",
+            "draconic",
+            "dziriak",
+            "necril",
+            "sakvroth"
+          ],
+          "custom": ""
+        },
+        "items": {},
+        "vision": "darkvision"
+      },
+      "type": "ancestry",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748710436451,
+        "modifiedTime": 1748710436496,
+        "lastModifiedBy": "mSv01wx2yK2C8Oeq"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {}
+    },
+    {
+      "_id": "doZ665prV63pIWbs",
+      "folder": "khXMNyAoAoZ70PpT",
+      "img": "systems/pf2e/icons/features/ancestry/dhampir.webp",
+      "name": "Dhampir",
+      "system": {
+        "ancestry": null,
+        "description": {
+          "value": "<p>You are the scion of a vampire, half living and half undead, gifted with uncanny charm and grace, a bloodless pallor, and elongated incisors. You gain the dhampir trait, in addition to the traits from your ancestry. You have the void healing ability, which means you are harmed by vitality damage and healed by void effects as if you were undead. You also gain low-light vision, or you gain darkvision if your ancestry already has low-light vision. You can select from dhampir feats and feats from your ancestry whenever you gain an ancestry feat.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core 2",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "key": "ActiveEffectLike",
+            "mode": "override",
+            "path": "system.attributes.hp.negativeHealing",
+            "value": true
+          },
+          {
+            "key": "Sense",
+            "selector": "low-light-vision"
+          },
+          {
+            "key": "Sense",
+            "predicate": [
+              "self:low-light-vision:from-ancestry"
+            ],
+            "selector": "darkvision"
+          }
+        ],
+        "traits": {
+          "rarity": "uncommon",
+          "value": [
+            "dhampir"
+          ],
+          "otherTags": []
+        },
+        "slug": "dhampir",
+        "_migration": {
+          "version": 0.939,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        }
+      },
+      "type": "heritage",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748710436558,
+        "modifiedTime": 1748710436613,
+        "lastModifiedBy": "mSv01wx2yK2C8Oeq"
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {}
+    },
+    {
+      "_id": "CQz7ZKbpaY5ZpuSx",
+      "img": "systems/pf2e/icons/default-icons/background.svg",
+      "name": "Tomb Born",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Your parents conceived you for a fell purpose at a site tainted by death, like a wight's barrow, mass grave, or ossuary. Their reasons could be a mystery, or you might know of their grand design and seek to escape-or fulfill-their plans. Either way, you're at your most dangerous when near death.</p>\n<p>Choose two attribute boosts. One must be to <strong>Dexterity</strong> or <strong>Constitution</strong>, and one is a free attribute boost.</p>\n<p>You're trained in the Undead Lore skill. You gain the @UUID[Compendium.pf2e.actionspf2e.Item.jbmXxq56swDYw8hy]{Final Spite} reaction.</p>"
+        },
+        "rules": [
+          {
+            "key": "GrantItem",
+            "uuid": "Compendium.pf2e.actionspf2e.Item.jbmXxq56swDYw8hy",
+            "flag": "finalSpite"
+          }
+        ],
+        "slug": "tomb-born",
+        "_migration": {
+          "version": 0.939,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "rare"
+        },
+        "publication": {
+          "title": "Pathfinder Book of the Dead",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "boosts": {
+          "0": {
+            "value": [
+              "con",
+              "dex"
+            ],
+            "selected": "con"
+          },
+          "1": {
+            "value": [
+              "cha",
+              "con",
+              "dex",
+              "int",
+              "str",
+              "wis"
+            ],
+            "selected": "wis"
+          }
+        },
+        "items": {},
+        "trainedSkills": {
+          "value": [],
+          "lore": [
+            "Undead"
+          ]
+        }
+      },
+      "type": "background",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748710436738,
+        "modifiedTime": 1748710436782,
+        "lastModifiedBy": "mSv01wx2yK2C8Oeq"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "pf2e": {
+          "itemGrants": {
+            "finalSpite": {
+              "id": "6lVbQl1LsqB72WI4",
+              "onDelete": "detach"
+            }
+          }
+        }
+      }
+    },
+    {
+      "_id": "ap97QLJlGGNKeUZC",
+      "img": "systems/pf2e/icons/default-icons/class.svg",
+      "name": "Animist",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><em>You are the interlocutor between the seen and unseen, the voice that connects the mortal and the spiritual. You bond with spirits, manifesting their distinct magic and allowing their knowledge to flow through you. You may favor apparitions that grant you healing magic, others that grant you spells of destructive power, or pick and choose between different apparitions as your environment and circumstances demand. You may consider your powers part of a sacred trust or see your unique abilities as a sign that you've been chosen as a champion of two worlds. Whether you advocate for mortals in the planes beyond or whether you represent the spirits' interests, you provide the bridge between realms.</em></p>\n<p>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.ThFPVuxGiZ2Asgyr]{Animist}</p>"
+        },
+        "rules": [],
+        "slug": "animist",
+        "_migration": {
+          "version": 0.939,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder War of Immortals",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "keyAbility": {
+          "value": [
+            "wis"
+          ],
+          "selected": "wis"
+        },
+        "items": {
+          "0uhZ8": {
+            "img": "icons/magic/control/debuff-energy-hold-levitate-blue-yellow.webp",
+            "level": 11,
+            "name": "Expert Protections",
+            "uuid": "Compendium.pf2e.classfeatures.Item.SgY4tejqWzTpEjfi"
+          },
+          "2FS8v": {
+            "img": "icons/magic/holy/meditation-chi-focus-blue.webp",
+            "level": 1,
+            "name": "Apparition Attunement",
+            "uuid": "Compendium.pf2e.classfeatures.Item.AHMjKkIx21AoMc9W"
+          },
+          "ArVGk": {
+            "img": "icons/magic/light/projectiles-trio-pink.webp",
+            "level": 7,
+            "name": "Third Apparition",
+            "uuid": "Compendium.pf2e.classfeatures.Item.bRAjde9LlavcOUuM"
+          },
+          "BgrEN": {
+            "img": "icons/skills/melee/hand-grip-staff-teal.webp",
+            "level": 11,
+            "name": "Simple Weapon Expertise",
+            "uuid": "Compendium.pf2e.classfeatures.Item.itTk4dBouzz89vs9"
+          },
+          "EWZ7i": {
+            "img": "icons/magic/symbols/circled-gem-pink.webp",
+            "level": 1,
+            "name": "Animistic Practice",
+            "uuid": "Compendium.pf2e.classfeatures.Item.P3rO6yeGY7YbccRG"
+          },
+          "Gza8q": {
+            "img": "icons/creatures/magical/construct-golem-stone-blue.webp",
+            "level": 19,
+            "name": "Supreme Incarnation",
+            "uuid": "Compendium.pf2e.classfeatures.Item.1MHXjNczVZfVvDP6"
+          },
+          "INSFD": {
+            "img": "icons/sundries/books/book-backed-silver-gold.webp",
+            "level": 7,
+            "name": "Expert Spellcaster",
+            "uuid": "Compendium.pf2e.classfeatures.Item.cD3nSupdCvONuHiE"
+          },
+          "NxSZq": {
+            "img": "icons/creatures/eyes/human-single-blue.webp",
+            "level": 9,
+            "name": "Perception Expertise",
+            "uuid": "Compendium.pf2e.classfeatures.Item.JCqACxgrm5ixX0Jy"
+          },
+          "T3Mgw": {
+            "img": "icons/magic/light/orb-shadow-blue.webp",
+            "level": 13,
+            "name": "Master of Mind and Spirit",
+            "uuid": "Compendium.pf2e.classfeatures.Item.8LhwKWBxF2lgxEG5"
+          },
+          "bsKxg": {
+            "img": "icons/magic/light/hand-sparks-smoke-green.webp",
+            "level": 1,
+            "name": "Animist & Apparition Spellcasting",
+            "uuid": "Compendium.pf2e.classfeatures.Item.h825m7hd9qDO3369"
+          },
+          "ca4R3": {
+            "img": "systems/pf2e/icons/features/classes/weapon-specialization.webp",
+            "level": 13,
+            "name": "Weapon Specialization",
+            "uuid": "Compendium.pf2e.classfeatures.Item.9EqIasqfI8YIM3Pt"
+          },
+          "jGzHc": {
+            "img": "icons/magic/light/projectiles-pink-purple.webp",
+            "level": 15,
+            "name": "Fourth Apparition",
+            "uuid": "Compendium.pf2e.classfeatures.Item.avLo2Jl3mNWssp0W"
+          },
+          "kHuIP": {
+            "img": "icons/sundries/books/book-open-purple.webp",
+            "level": 19,
+            "name": "Legendary Spellcaster",
+            "uuid": "Compendium.pf2e.classfeatures.Item.Hfaa7TuLn3nE8lr3"
+          },
+          "xbD5Z": {
+            "img": "icons/magic/life/cross-explosion-burst-green.webp",
+            "level": 3,
+            "name": "Fortitude Expertise",
+            "uuid": "Compendium.pf2e.classfeatures.Item.F57Na5VxfBp56kke"
+          },
+          "yZwJj": {
+            "img": "icons/skills/trades/academics-book-study-purple.webp",
+            "level": 15,
+            "name": "Master Spellcaster",
+            "uuid": "Compendium.pf2e.classfeatures.Item.l1InYvhnQSz6Ucxc"
+          }
+        },
+        "hp": 8,
+        "trainedSkills": {
+          "value": [
+            "religion"
+          ],
+          "additional": 2
+        },
+        "perception": 1,
+        "savingThrows": {
+          "fortitude": 1,
+          "reflex": 1,
+          "will": 2
+        },
+        "attacks": {
+          "simple": 1,
+          "martial": 0,
+          "advanced": 0,
+          "unarmed": 1,
+          "other": {
+            "name": "",
+            "rank": 0
+          }
+        },
+        "defenses": {
+          "unarmored": 1,
+          "light": 1,
+          "medium": 1,
+          "heavy": 0
+        },
+        "spellcasting": 1,
+        "ancestryFeatLevels": {
+          "value": [
+            1,
+            5,
+            9,
+            13,
+            17
+          ]
+        },
+        "classFeatLevels": {
+          "value": [
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20
+          ]
+        },
+        "generalFeatLevels": {
+          "value": [
+            3,
+            7,
+            11,
+            15,
+            19
+          ]
+        },
+        "skillFeatLevels": {
+          "value": [
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20
+          ]
+        },
+        "skillIncreaseLevels": {
+          "value": [
+            3,
+            5,
+            7,
+            9,
+            11,
+            13,
+            15,
+            17,
+            19
+          ]
+        }
+      },
+      "type": "class",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748710436908,
+        "modifiedTime": 1748710438562,
+        "lastModifiedBy": "mSv01wx2yK2C8Oeq"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {}
+    },
+    {
+      "name": "Undead",
+      "type": "lore",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.939,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 0
+        },
+        "proficient": {
+          "value": 1
+        },
+        "featType": "",
+        "item": {
+          "value": 0
+        }
+      },
+      "effects": [],
+      "_id": "gJ0Cs4s4wTXo1g1O",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748710437068,
+        "modifiedTime": 1748710437068,
+        "lastModifiedBy": "mSv01wx2yK2C8Oeq"
+      }
+    },
+    {
+      "name": "Battlegrounds",
+      "type": "lore",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.939,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 0
+        },
+        "proficient": {
+          "value": 1
+        },
+        "featType": "",
+        "item": {
+          "value": 0
+        }
+      },
+      "effects": [],
+      "_id": "LfxEp9kcNwiu7Xui",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748710437068,
+        "modifiedTime": 1748710437068,
+        "lastModifiedBy": "mSv01wx2yK2C8Oeq"
+      }
+    },
+    {
+      "name": "Heraldry",
+      "type": "lore",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.939,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 0
+        },
+        "proficient": {
+          "value": 1
+        },
+        "featType": "",
+        "item": {
+          "value": 0
+        }
+      },
+      "effects": [],
+      "_id": "kK4TgtuZrIzQ38ga",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748710437068,
+        "modifiedTime": 1748710437068,
+        "lastModifiedBy": "mSv01wx2yK2C8Oeq"
+      }
+    },
+    {
+      "name": "Hunting",
+      "type": "lore",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.939,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 0
+        },
+        "proficient": {
+          "value": 1
+        },
+        "featType": "",
+        "item": {
+          "value": 0
+        }
+      },
+      "effects": [],
+      "_id": "IYc5pzcC1wgME51J",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748710437068,
+        "modifiedTime": 1748710437068,
+        "lastModifiedBy": "mSv01wx2yK2C8Oeq"
+      }
+    },
+    {
+      "name": "Forest",
+      "type": "lore",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.939,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 0
+        },
+        "proficient": {
+          "value": 1
+        },
+        "featType": "",
+        "item": {
+          "value": 0
+        }
+      },
+      "effects": [],
+      "_id": "4vqsuR0Ed4c0EyXC",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748710437068,
+        "modifiedTime": 1748710437068,
+        "lastModifiedBy": "mSv01wx2yK2C8Oeq"
+      }
+    },
+    {
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
+      "name": "Final Spite",
+      "system": {
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "description": {
+          "value": "<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You're reduced to 0 Hit Points</p>\n<hr />\n<p><strong>Effect</strong> You make a Strike before falling @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious}.</p>",
+          "gm": ""
+        },
+        "frequency": {
+          "max": 1,
+          "per": "day"
+        },
+        "publication": {
+          "license": "OGL",
+          "remaster": false,
+          "title": "Pathfinder Book of the Dead",
+          "authors": ""
+        },
+        "rules": [],
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "slug": "final-spite",
+        "_migration": {
+          "version": 0.939,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748710437185,
+        "modifiedTime": 1748710437185,
+        "lastModifiedBy": "mSv01wx2yK2C8Oeq"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "pathmuncher": {
+          "origin": {
+            "uuid": "Compendium.pf2e.actionspf2e.Item.jbmXxq56swDYw8hy"
+          }
+        },
+        "pf2e": {
+          "grantedBy": {
+            "id": "CQz7ZKbpaY5ZpuSx",
+            "onDelete": "cascade"
+          }
+        }
+      },
+      "_id": "6lVbQl1LsqB72WI4"
+    },
+    {
+      "_id": "Vt3Gsrot0wyK4xr3",
+      "img": "icons/magic/holy/meditation-chi-focus-blue.webp",
+      "name": "Apparition Attunement",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "classfeature",
+        "description": {
+          "value": "<p>Animists have a gift for divine magic that allows them to serve as conduits or bridges for otherworldly spiritual entities known collectively as apparitions; through them, these entities can commune and interact with the physical world in a process called attunement. Apparitions are myriad and diverse: they may be human spirits lingering on the border between becoming phantoms or ghosts, animal spirits with particularly strong connections to the physical world but lacking the malice that would spur a transition into true undeath, manifestations of natural locations that have grown thought and purpose over time, or they may be a different variation altogether.</p>\n<p>Some animists attune to one or more specific apparitions that accompany them in their travels, forming deep partnerships over time, while others adapt to their surroundings by befriending the local apparitions who dwell wherever the animist's journey takes them. Each day during your daily preparations, choose two apparitions from the list on page 17 to attune to. Of these, choose one to be your primary apparition. Your attuned apparitions each grant you knowledge in the form of Lore skills and a repertoire of additional spells you can cast using apparition spellcasting (see below), and your primary apparition grants you even further power in the form a unique vessel focus spell and, when you are higher level, a unique avatar form.</p>\n<p>When you Refocus, you can change which of your currently attuned apparitions is your primary apparition, selecting from any of the apparitions you attuned to during your daily preparations. All your apparitions typically remain attuned to you until your next daily preparations, but some animist abilities can temporarily disperse them, usually in exchange for a powerful boon. If an apparition is dispersed, you lose access to its gifts—you forget its apparition skills, its spells are removed from your apparition spell repertoire, and you can't use its vessel spell or avatar form—until you attune to it again. When you disperse your primary apparition, one of your remaining apparitions becomes your primary apparition, chosen by you at the time of dispersal.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder War of Immortals",
+          "authors": ""
+        },
+        "rules": [],
+        "traits": {
+          "rarity": "common",
+          "value": [
+            "animist"
+          ],
+          "otherTags": []
+        },
+        "slug": "apparition-attunement",
+        "_migration": {
+          "version": 0.939,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": "ap97QLJlGGNKeUZC"
+      },
+      "type": "feat",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748710437283,
+        "modifiedTime": 1748710437283,
+        "lastModifiedBy": "mSv01wx2yK2C8Oeq"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {}
+    },
+    {
+      "_id": "HYMYHCpn7s5pEekb",
+      "img": "icons/magic/symbols/circled-gem-pink.webp",
+      "name": "Animistic Practice",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "classfeature",
+        "description": {
+          "value": "<p>At 1st level, you choose an animistic practice that influences the way your power grows and develops, and you gain its first invocation. At 9th level, you gain its second invocation, and at 17th, you gain its third.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder War of Immortals",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "key": "GrantItem",
+            "uuid": "{item|flags.pf2e.rulesSelections.animisticPractice}",
+            "flag": "seer"
+          }
+        ],
+        "traits": {
+          "rarity": "common",
+          "value": [
+            "animist"
+          ],
+          "otherTags": []
+        },
+        "slug": "animistic-practice",
+        "_migration": {
+          "version": 0.939,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": "ap97QLJlGGNKeUZC"
+      },
+      "type": "feat",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748710437390,
+        "modifiedTime": 1748710437444,
+        "lastModifiedBy": "mSv01wx2yK2C8Oeq"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "pf2e": {
+          "rulesSelections": {
+            "animisticPractice": "Compendium.pf2e.classfeatures.Item.NRQOorKeZ310FXuk"
+          },
+          "itemGrants": {
+            "seer": {
+              "id": "U6PaeHkghVj3Rb8o",
+              "onDelete": "detach"
+            }
+          }
+        }
+      }
+    },
+    {
+      "img": "icons/creatures/magical/spirit-undead-masked-blue.webp",
+      "name": "Seer",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "classfeature",
+        "description": {
+          "value": "<p>You are particularly sensitive to the presence and influence of spirits and undead. You can detect lingering spirits, offering you some defense against them.</p>\n<p><strong>Invocation of Sight (1st):</strong> You shift your eyes easily to the spirit world, intuiting the needs of apparitions and other spiritual entities based on how they appear to you. You gain the @UUID[Compendium.pf2e.feats-srd.Item.0CjMvMLW6kL1TO6e]{Apparition Sense} feat. You also gain a +1 status bonus to saving throws and AC against the effects of haunts and the abilities of spirits and incorporeal undead.</p>\n<p><strong>Invocation of Protection (9th):</strong> Your status as an intermediary across planar boundaries grants you further defenses against spiritual ailments. You gain spirit resistance and void resistance equal to half your level, and your status bonus to saving throws and AC against the effects of haunts and the abilities of spirits and incorporeal undead increases to +2.</p>\n<p><strong>Invocation of Resilience (17th):</strong> You are a bulwark against the terrible spirits that lurk in the dark. Your apparition sight becomes a precise sense and your status bonus to saving throws and AC against the effects of haunts and the abilities of spirits and incorporeal undead increases to +3.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder War of Immortals",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "key": "GrantItem",
+            "uuid": "Compendium.pf2e.feats-srd.Item.0CjMvMLW6kL1TO6e",
+            "flag": "apparitionSense"
+          },
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              {
+                "or": [
+                  "origin:trait:haunt",
+                  "origin:trait:spirit",
+                  {
+                    "and": [
+                      "origin:trait:undead",
+                      "origin:trait:incorporeal"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "selector": [
+              "ac",
+              "saving-throw"
+            ],
+            "slug": "seer-defense-bonus",
+            "type": "status",
+            "value": "ternary(gte(@actor.level,17),3,ternary(gte(@actor.level,9),2,1))"
+          },
+          {
+            "key": "Resistance",
+            "predicate": [
+              {
+                "gte": [
+                  "self:level",
+                  9
+                ]
+              }
+            ],
+            "type": [
+              "spirit",
+              "void"
+            ],
+            "value": "floor(@actor.level/2)"
+          }
+        ],
+        "traits": {
+          "otherTags": [
+            "animistic-practice"
+          ],
+          "rarity": "common",
+          "value": [
+            "animist"
+          ]
+        },
+        "slug": "seer",
+        "_migration": {
+          "version": 0.939,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": null
+      },
+      "type": "feat",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748710437515,
+        "modifiedTime": 1748710437601,
+        "lastModifiedBy": "mSv01wx2yK2C8Oeq"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "pathmuncher": {
+          "origin": {
+            "uuid": "Compendium.pf2e.classfeatures.Item.NRQOorKeZ310FXuk"
+          }
+        },
+        "pf2e": {
+          "grantedBy": {
+            "id": "HYMYHCpn7s5pEekb",
+            "onDelete": "cascade"
+          },
+          "itemGrants": {
+            "apparitionSense": {
+              "id": "PQq6o8DCzb7sYECU",
+              "onDelete": "detach"
+            }
+          }
+        }
+      },
+      "_id": "U6PaeHkghVj3Rb8o"
+    },
+    {
+      "folder": "JlgZkCIuBBoJ6clt",
+      "img": "icons/sundries/books/book-red-exclamation.webp",
+      "name": "Apparition Sense",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "class",
+        "description": {
+          "value": "<p>You can see and interact with things others can't. You have apparition sight, an imprecise sense that allows you to detect the presence of @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible} or @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} spirits, haunts, and undead within 30 feet of you.</p>\n<p>You can allow a spirit or undead otherwise incapable of speech to speak through you as long as you are in direct contact with it. As an activity that takes 10 minutes, you can act as a link between disembodied souls and their mortal bodies. As long as you are in contact with both a spirit and a living body that belonged to it in life during that entire time, the spirit can use you to return to that body; this does not allow you to bring the dead back to life, but can assist in restoring a disembodied soul to a still-living body. If the body is occupied by another spirit or soul, that entity must succeed at a Will save against your spell DC or be cast from the body when its original owner is returned.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder War of Immortals",
+          "authors": ""
+        },
+        "rules": [],
+        "traits": {
+          "rarity": "common",
+          "value": [
+            "animist",
+            "divine"
+          ],
+          "otherTags": []
+        },
+        "slug": "apparition-sense",
+        "_migration": {
+          "version": 0.939,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": null
+      },
+      "type": "feat",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748710437679,
+        "modifiedTime": 1748710437679,
+        "lastModifiedBy": "mSv01wx2yK2C8Oeq"
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {
+        "pathmuncher": {
+          "origin": {
+            "uuid": "Compendium.pf2e.feats-srd.Item.0CjMvMLW6kL1TO6e"
+          }
+        },
+        "pf2e": {
+          "grantedBy": {
+            "id": "U6PaeHkghVj3Rb8o",
+            "onDelete": "cascade"
+          }
+        }
+      },
+      "_id": "PQq6o8DCzb7sYECU"
+    },
+    {
+      "_id": "QBoKSlMkYjMJCuUE",
+      "img": "icons/magic/light/hand-sparks-smoke-green.webp",
+      "name": "Animist & Apparition Spellcasting",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "classfeature",
+        "description": {
+          "value": "<p>Your role as a spiritual medium connecting the mortal Universe to the realms beyond lets you cast your magic in two distinct ways: you both learn and prepare spells from the divine tradition yourself, and you also channel the knowledge and power of your attuned apparitions, gaining spell slots and a repertoire of spells from them that you can cast spontaneously.</p>\n<p>Regardless of which source you're drawing on, you are a spellcaster and can cast spells of the divine tradition using the Cast a Spell activity. As an animist, your incantations might take the form of reciting relevant snippets of legends—stories passed down orally—or they might see you calling nearby spirits to honor ancient vows. Your gestures could be elegant dances or full-body convulsions as generations of memories and otherworldly energies inherited from your spiritual allies surge through you.</p>\n<p>Some of your spells require you to attempt a spell attack to see how effective they are, or have your enemies roll against your spell DC (typically by attempting a saving throw). Since your key attribute is Wisdom, your spell attack modifiers and spell DC use your Wisdom modifier.</p>\n<p>The clearly delineated partnership between an animist and their apparitions means you can't cast your animist spells using your apparition spell slots or vice versa—your magics remain complementary and harmonious, yet as distinct as the two worlds from which they come.</p><h3>Animist Spellcasting</h3><p>As a keeper of knowledge, you are constantly learning new techniques and spells. Each day, you can prepare one 1st-rank spell and 2 cantrips from among the common spells on the divine spell list or from other divine spells you've gained access to and learned via Learn a Spell. Prepared spells remain available to you until you cast them or until you prepare your spells again. The number of spells you can prepare is called your spell slots. As you increase in level as an animist, the number of spells you can prepare each day increases, as does the highest rank of spell you can cast, as shown in Animist Spells Per Day.</p>\n<p>You are a prepared spellcaster for the purposes of determining how you interact with staves and other items or effects that differentiate between prepared and spontaneous spellcasters.</p><h3>Apparition Spellcasting</h3><p>You can draw upon your attuned apparitions as a second source of magical knowledge and power. You gain additional spontaneous spell slots and a spell repertoire from your attuned apparitions. At first level, you can cast two apparition cantrips and one 1st-rank apparition spell per day. You must have the spell in your apparition spell repertoire to cast it; this is a collection of spells granted to you by all your attuned apparitions. You can cast any spell in your apparition spell repertoire by using an apparition spell slot of an appropriate spell rank. Any of these spells that aren't normally on the divine list are still divine spells if you cast them this way.</p>\n<p>As you increase in level, you gain further apparition spell slots, and your apparitions grant you higher-rank apparition spells, as detailed in each apparition entry.</p><h3>Heightening Spells</h3><p>When you gain spell slots of 2nd rank and higher, you can fill those slots with stronger versions of lower-rank spells. This increases the spell's rank, heightening it to match the spell slot. Many spells have specific improvements when they are heightened to certain ranks. All your apparition spells are signature spells. That means that you can heighten any apparition spell freely by casting it from a higher-rank apparition spell slot, up to the maximum rank of apparition spell you can cast.</p><h3>Cantrips</h3><p>Some of your spells are cantrips. A cantrip is a special type of spell that doesn't use spell slots. You can cast a cantrip at will any number of times per day. A cantrip is automatically heightened to half your level rounded up—this is usually equal to the highest rank of animist spell slot you have. For example, as a 1st-level animist, your cantrips are 1st-rank spells, and as a 5th-level animist, your cantrips are 3rd-rank spells.</p><h3>Vessel Spells</h3><p>Your primary attuned apparition can use your body as a conduit, allowing you to cast a unique vessel spell. Vessel spells are a type of focus spell. Because vessel spells are a manifestation of a specific apparition, an animist can't cast or Sustain a specific vessel spell in the same round they have already cast or Sustained it (for example, an animist who has cast earth's bile during their turn can't then cast or Sustain another instance of earth's bile during that same turn).</p>\n<p>It costs 1 Focus Point to cast a focus spell, and you start with a focus pool of 1 Focus Point. You refill your focus pool during your daily preparations, and you can regain 1 Focus Point by spending 10 minutes using the Refocus activity to treat with nearby spirits, meditate on resolving an issue pertaining to the balance of spirits and mortals, or tell a story.</p>\n<p>Focus spells are automatically heightened to half your level rounded up, much like cantrips. Focus spells don't require spell slots, and you can't cast them using spell slots. The maximum Focus Points your focus pool can hold is equal to the number of focus spells you have, though certain feats or abilities adjust this number, but it can never be more than 3 points.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder War of Immortals",
+          "authors": ""
+        },
+        "rules": [],
+        "traits": {
+          "rarity": "common",
+          "value": [
+            "animist"
+          ],
+          "otherTags": []
+        },
+        "slug": "animist-apparition-spellcasting",
+        "_migration": {
+          "version": 0.939,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": "ap97QLJlGGNKeUZC"
+      },
+      "type": "feat",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748710437815,
+        "modifiedTime": 1748710437815,
+        "lastModifiedBy": "mSv01wx2yK2C8Oeq"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {}
+    },
+    {
+      "_id": "pwVpgM48pQe4U8UO",
+      "folder": "ujjBTcgWjsAQJA9n",
+      "img": "icons/sundries/books/book-red-exclamation.webp",
+      "name": "Adhyabhau",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "ancestry",
+        "description": {
+          "value": "<p>You descend from the rare psychic vampires known as vetalaranas. Your forebear gained sustenance from the mental and emotional energy of living creatures, which manifests in you as powerful resistance to such effects.</p>\n<p>You gain a +1 circumstance bonus to Will saves against effects with the emotion trait, and when you roll a success on a saving throw against such an effect, you get a critical success instead.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1
+        },
+        "onlyLevel1": true,
+        "prerequisites": {
+          "value": []
+        },
+        "publication": {
+          "license": "OGL",
+          "remaster": false,
+          "title": "Pathfinder Lost Omens Ancestry Guide",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              "emotion"
+            ],
+            "selector": "will",
+            "type": "circumstance",
+            "value": 1
+          },
+          {
+            "key": "Note",
+            "predicate": [
+              "emotion"
+            ],
+            "selector": "will",
+            "text": "<em>@Localize[PF2E.SpecificRule.Dhampir.Adhyabhau.SaveNote]</em>",
+            "title": "{item|name}"
+          },
+          {
+            "adjustment": {
+              "success": "one-degree-better"
+            },
+            "key": "AdjustDegreeOfSuccess",
+            "predicate": [
+              "emotion"
+            ],
+            "selector": "will",
+            "type": "save"
+          }
+        ],
+        "traits": {
+          "rarity": "common",
+          "value": [
+            "dhampir",
+            "lineage"
+          ],
+          "otherTags": []
+        },
+        "slug": "adhyabhau",
+        "_migration": {
+          "version": 0.939,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        },
+        "maxTakable": 1,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": "ancestry-1"
+      },
+      "type": "feat",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748710437935,
+        "modifiedTime": 1748710437935,
+        "lastModifiedBy": "mSv01wx2yK2C8Oeq"
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {}
+    },
+    {
+      "_id": "MPOjWsWRfUgLVHT0",
+      "name": "Animist Prepared",
+      "type": "spellcastingEntry",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.939,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "ability": {
+          "value": "wis"
+        },
+        "spelldc": {
+          "value": 0,
+          "dc": 0,
+          "item": 0
+        },
+        "tradition": {
+          "value": "divine"
+        },
+        "prepared": {
+          "value": "prepared",
+          "flexible": false
+        },
+        "showSlotlessLevels": {
+          "value": false
+        },
+        "proficiency": {
+          "value": 1
+        },
+        "slots": {
+          "slot0": {
+            "prepared": {
+              "0": {
+                "id": "OFEgKvkq093W3Xvh"
+              },
+              "1": {
+                "id": "LqwuBT31fGfUkULW"
+              }
+            },
+            "value": 2,
+            "max": 2
+          },
+          "slot1": {
+            "prepared": {
+              "0": {
+                "id": "Rc4lYPT8w04S7R2E"
+              }
+            },
+            "value": 1,
+            "max": 1
+          },
+          "slot2": {
+            "prepared": {},
+            "value": 0,
+            "max": 0
+          },
+          "slot3": {
+            "prepared": {},
+            "value": 0,
+            "max": 0
+          },
+          "slot4": {
+            "prepared": {},
+            "value": 0,
+            "max": 0
+          },
+          "slot5": {
+            "prepared": {},
+            "value": 0,
+            "max": 0
+          },
+          "slot6": {
+            "prepared": {},
+            "value": 0,
+            "max": 0
+          },
+          "slot7": {
+            "prepared": {},
+            "value": 0,
+            "max": 0
+          },
+          "slot8": {
+            "prepared": {},
+            "value": 0,
+            "max": 0
+          },
+          "slot9": {
+            "prepared": {},
+            "value": 0,
+            "max": 0
+          },
+          "slot10": {
+            "prepared": {},
+            "value": 0,
+            "max": 0
+          },
+          "slot11": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          }
+        },
+        "autoHeightenLevel": {
+          "value": null
+        },
+        "showUnpreparedSpells": {
+          "value": true
+        }
+      },
+      "effects": [],
+      "img": "systems/pf2e/icons/default-icons/spellcastingEntry.svg",
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748710438037,
+        "modifiedTime": 1748710438037,
+        "lastModifiedBy": "mSv01wx2yK2C8Oeq"
+      }
+    },
+    {
+      "_id": "gKU9VrPx3JnPWyUp",
+      "name": "Animist Apparition",
+      "type": "spellcastingEntry",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.939,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "ability": {
+          "value": "wis"
+        },
+        "spelldc": {
+          "value": 0,
+          "dc": 0,
+          "item": 0
+        },
+        "tradition": {
+          "value": "divine"
+        },
+        "prepared": {
+          "value": "spontaneous",
+          "flexible": false
+        },
+        "showSlotlessLevels": {
+          "value": true
+        },
+        "proficiency": {
+          "value": 1
+        },
+        "slots": {
+          "slot0": {
+            "prepared": {
+              "0": {
+                "id": "dt9582bS9n3NcBp7"
+              },
+              "1": {
+                "id": "d33JwPJN2Rv7Lw3v"
+              }
+            },
+            "value": 2,
+            "max": 2
+          },
+          "slot1": {
+            "prepared": {
+              "0": {
+                "id": "0dKKwWkUPilyQyHb"
+              },
+              "1": {
+                "id": "6jm2HNZisIF73Bu2"
+              }
+            },
+            "value": 1,
+            "max": 1
+          },
+          "slot2": {
+            "prepared": {},
+            "value": 0,
+            "max": 0
+          },
+          "slot3": {
+            "prepared": {},
+            "value": 0,
+            "max": 0
+          },
+          "slot4": {
+            "prepared": {},
+            "value": 0,
+            "max": 0
+          },
+          "slot5": {
+            "prepared": {},
+            "value": 0,
+            "max": 0
+          },
+          "slot6": {
+            "prepared": {},
+            "value": 0,
+            "max": 0
+          },
+          "slot7": {
+            "prepared": {},
+            "value": 0,
+            "max": 0
+          },
+          "slot8": {
+            "prepared": {},
+            "value": 0,
+            "max": 0
+          },
+          "slot9": {
+            "prepared": {},
+            "value": 0,
+            "max": 0
+          },
+          "slot10": {
+            "prepared": {},
+            "value": 0,
+            "max": 0
+          },
+          "slot11": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          }
+        },
+        "autoHeightenLevel": {
+          "value": null
+        },
+        "showUnpreparedSpells": {
+          "value": true
+        }
+      },
+      "effects": [],
+      "img": "systems/pf2e/icons/default-icons/spellcastingEntry.svg",
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748710438037,
+        "modifiedTime": 1748711950898,
+        "lastModifiedBy": "mSv01wx2yK2C8Oeq"
+      }
+    },
+    {
+      "_id": "0mGU7SE1mFhPwBla",
+      "name": "Divine Focus Tradition",
+      "type": "spellcastingEntry",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.939,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "ability": {
+          "value": "wis"
+        },
+        "spelldc": {
+          "value": 0,
+          "dc": 0,
+          "item": 0
+        },
+        "tradition": {
+          "value": "divine"
+        },
+        "prepared": {
+          "value": "focus",
+          "flexible": false
+        },
+        "showSlotlessLevels": {
+          "value": true
+        },
+        "proficiency": {
+          "value": 1
+        },
+        "slots": {
+          "slot0": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot1": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot2": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot3": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot4": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot5": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot6": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot7": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot8": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot9": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot10": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot11": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          }
+        },
+        "autoHeightenLevel": {
+          "value": null
+        },
+        "showUnpreparedSpells": {
+          "value": true
+        }
+      },
+      "effects": [],
+      "img": "systems/pf2e/icons/default-icons/spellcastingEntry.svg",
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748710438037,
+        "modifiedTime": 1748710438037,
+        "lastModifiedBy": "mSv01wx2yK2C8Oeq"
+      }
+    },
+    {
+      "_id": "OFEgKvkq093W3Xvh",
+      "folder": "D7UVaOiB40wTR6kv",
+      "img": "icons/commodities/tech/antenna-powered-purple.webp",
+      "name": "Haunting Hymn",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You echo a jarring hymn that only creatures in the area can hear. The hymn deals 1d8 sonic damage, with a basic Fortitude save. If a target critically fails the save, it's also @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened} for 1 minute.</p>\n<hr />\n<p><strong>Heightened (+2)</strong> The damage increases by 1d8.</p>"
+        },
+        "rules": [],
+        "slug": "haunting-hymn",
+        "_migration": {
+          "version": 0.939,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "auditory",
+            "cantrip",
+            "concentrate",
+            "manipulate",
+            "sonic"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "divine",
+            "occult"
+          ]
+        },
+        "publication": {
+          "title": "Pathfinder Player Core 2",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1
+        },
+        "requirements": "",
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": ""
+        },
+        "area": {
+          "type": "cone",
+          "value": 15
+        },
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "",
+          "sustained": false
+        },
+        "damage": {
+          "0": {
+            "applyMod": false,
+            "category": null,
+            "formula": "1d8",
+            "kinds": [
+              "damage"
+            ],
+            "materials": [],
+            "type": "sonic"
+          }
+        },
+        "defense": {
+          "save": {
+            "basic": true,
+            "statistic": "fortitude"
+          }
+        },
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "MPOjWsWRfUgLVHT0",
+          "heightenedLevel": 0
+        },
+        "counteraction": false,
+        "heightening": {
+          "damage": {
+            "0": "1d8"
+          },
+          "interval": 2,
+          "type": "interval"
+        }
+      },
+      "type": "spell",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748710438177,
+        "modifiedTime": 1748710438177,
+        "lastModifiedBy": "mSv01wx2yK2C8Oeq"
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {}
+    },
+    {
+      "_id": "LqwuBT31fGfUkULW",
+      "folder": "D7UVaOiB40wTR6kv",
+      "img": "systems/pf2e/icons/spells/guidance.webp",
+      "name": "Guidance",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You ask for the guidance of supernatural entities, granting the target a +1 status bonus to one attack roll, Perception check, saving throw, or skill check the target attempts before the duration ends. The target chooses which roll to use the bonus on before rolling. If the target uses the bonus, the spell ends. Either way, the target is then temporarily immune for 1 hour.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.3qHKBDF7lrHw8jFK]{Spell Effect: Guidance}</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.3LyOkV25p7wA181H]{Effect: Guidance Immunity}</p>"
+        },
+        "rules": [],
+        "slug": "guidance",
+        "_migration": {
+          "version": 0.939,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "cantrip",
+            "concentrate"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "divine",
+            "occult",
+            "primal"
+          ]
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1
+        },
+        "requirements": "",
+        "target": {
+          "value": "1 creature"
+        },
+        "range": {
+          "value": "30 feet"
+        },
+        "area": null,
+        "time": {
+          "value": "1"
+        },
+        "duration": {
+          "value": "until the start of your next turn",
+          "sustained": false
+        },
+        "damage": {},
+        "defense": null,
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "MPOjWsWRfUgLVHT0",
+          "heightenedLevel": 0
+        },
+        "counteraction": false
+      },
+      "type": "spell",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748710438177,
+        "modifiedTime": 1748710438177,
+        "lastModifiedBy": "mSv01wx2yK2C8Oeq"
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {}
+    },
+    {
+      "_id": "Rc4lYPT8w04S7R2E",
+      "folder": "T8AzYUgNIAgTJ9Iz",
+      "img": "systems/pf2e/icons/spells/harm.webp",
+      "name": "Harm",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You channel void energy to harm the living or heal the undead. If the target is a living creature, you deal 1d8 void damage to it, and it gets a basic Fortitude save. If the target is a willing undead creature, you restore that amount of Hit Points. The number of actions you spend when Casting this Spell determines its targets, range, area, and other parameters.</p>\n<p><span class=\"action-glyph\">1</span> The spell has a range of touch.</p>\n<p><span class=\"action-glyph\">2</span> <strong>(concentrate)</strong> The spell has a range of 30 feet. If you're healing an undead creature, increase the Hit Points restored by 8.</p>\n<p><span class=\"action-glyph\">3</span> <strong>(concentrate)</strong> You disperse void energy in a @Template[emanation|distance:30]. This targets all living and undead creatures in the area.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The amount of healing or damage increases by 1d8, and the extra healing for the 2-action version increases by 8.</p>"
+        },
+        "rules": [],
+        "slug": "harm",
+        "_migration": {
+          "version": 0.939,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "manipulate",
+            "void"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "divine"
+          ]
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1
+        },
+        "requirements": "",
+        "target": {
+          "value": "1 living creature or 1 willing undead creature"
+        },
+        "range": {
+          "value": "varies"
+        },
+        "area": null,
+        "time": {
+          "value": "1 to 3"
+        },
+        "duration": {
+          "value": "",
+          "sustained": false
+        },
+        "damage": {
+          "0": {
+            "applyMod": false,
+            "category": null,
+            "formula": "1d8",
+            "kinds": [
+              "damage",
+              "healing"
+            ],
+            "materials": [],
+            "type": "void"
+          }
+        },
+        "defense": {
+          "save": {
+            "basic": true,
+            "statistic": "fortitude"
+          }
+        },
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "MPOjWsWRfUgLVHT0",
+          "heightenedLevel": 1
+        },
+        "counteraction": false,
+        "heightening": {
+          "damage": {
+            "0": "1d8"
+          },
+          "interval": 1,
+          "type": "interval"
+        },
+        "overlays": {
+          "4gyp3qlsv5ywdyjq": {
+            "_id": "4gyp3qlsv5ywdyjq",
+            "name": "Harm (vs. Undead)",
+            "overlayType": "override",
+            "sort": 3,
+            "system": {
+              "damage": {
+                "0": {
+                  "formula": "1d8+8",
+                  "kinds": [
+                    "healing"
+                  ]
+                }
+              },
+              "defense": null,
+              "heightening": {
+                "damage": {
+                  "0": "1d8+8"
+                }
+              },
+              "range": {
+                "value": "30 feet"
+              },
+              "target": {
+                "value": "1 willing undead creature"
+              },
+              "time": {
+                "value": "2"
+              },
+              "traits": {
+                "value": [
+                  "concentrate",
+                  "manipulate",
+                  "void"
+                ]
+              }
+            }
+          },
+          "pq7cxntbz4s8g5ik": {
+            "_id": "pq7cxntbz4s8g5ik",
+            "overlayType": "override",
+            "sort": 1,
+            "system": {
+              "range": {
+                "value": "touch"
+              },
+              "time": {
+                "value": "1"
+              }
+            }
+          },
+          "rvhoa43rqqqp8izn": {
+            "_id": "rvhoa43rqqqp8izn",
+            "overlayType": "override",
+            "sort": 4,
+            "system": {
+              "area": {
+                "type": "emanation",
+                "value": 30
+              },
+              "range": {
+                "value": ""
+              },
+              "target": {
+                "value": "all living and undead creatures"
+              },
+              "time": {
+                "value": "3"
+              },
+              "traits": {
+                "value": [
+                  "concentrate",
+                  "manipulate",
+                  "void"
+                ]
+              }
+            }
+          },
+          "z04svm1cvfcxtplb": {
+            "_id": "z04svm1cvfcxtplb",
+            "name": "Harm (vs. Living)",
+            "overlayType": "override",
+            "sort": 2,
+            "system": {
+              "damage": {
+                "0": {
+                  "kinds": [
+                    "damage"
+                  ]
+                }
+              },
+              "range": {
+                "value": "30 feet"
+              },
+              "target": {
+                "value": "1 living creature"
+              },
+              "time": {
+                "value": "2"
+              },
+              "traits": {
+                "value": [
+                  "concentrate",
+                  "manipulate",
+                  "void"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "type": "spell",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748710438177,
+        "modifiedTime": 1748710438177,
+        "lastModifiedBy": "mSv01wx2yK2C8Oeq"
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {}
+    },
+    {
+      "_id": "dt9582bS9n3NcBp7",
+      "folder": "D7UVaOiB40wTR6kv",
+      "img": "systems/pf2e/icons/spells/shield.webp",
+      "name": "Shield",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You raise a magical shield of force. This counts as using the Raise a Shield action, giving you a +1 circumstance bonus to AC until the start of your next turn, but it doesn't require a hand to use.</p>\n<p>While the spell is in effect, you can use the @UUID[Compendium.pf2e.feats-srd.Item.jM72TjJ965jocBV8]{Shield Block} reaction with your magic shield. The shield has Hardness 5. You can use the spell's reaction to reduce damage from any spell or magical effect, even if it doesn't deal physical damage. After you use Shield Block, the spell ends and you can't cast it again for 10 minutes.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.Jemq5UknGdMO7b73]{Spell Effect: Shield}</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.QF6RDlCoTvkVHRo4]{Effect: Shield Immunity}</p>\n<hr />\n<p><strong>Heightened (+2)</strong> The shield's Hardness increases by 5.</p>"
+        },
+        "rules": [],
+        "slug": "shield",
+        "_migration": {
+          "version": 0.939,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "cantrip",
+            "concentrate",
+            "force"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "divine",
+            "occult"
+          ]
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1
+        },
+        "requirements": "",
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": ""
+        },
+        "area": null,
+        "time": {
+          "value": "1"
+        },
+        "duration": {
+          "value": "until the start of your next turn",
+          "sustained": false
+        },
+        "damage": {},
+        "defense": null,
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "gKU9VrPx3JnPWyUp",
+          "heightenedLevel": 0
+        },
+        "counteraction": false
+      },
+      "type": "spell",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748710438177,
+        "modifiedTime": 1748710438177,
+        "lastModifiedBy": "mSv01wx2yK2C8Oeq"
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {}
+    },
+    {
+      "_id": "d33JwPJN2Rv7Lw3v",
+      "folder": "D7UVaOiB40wTR6kv",
+      "img": "icons/creatures/claws/claw-hooked-curved.webp",
+      "name": "Gouging Claw",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You temporarily morph your limb into a clawed appendage. Make a melee spell attack roll against your target's AC. If you hit, you deal your choice of 2d6 slashing damage or 2d6 piercing damage, plus 2 persistent bleed damage. On a critical success, you deal double damage and double bleed damage.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 1d6 and the persistent bleed damage increases by 1.</p>"
+        },
+        "rules": [],
+        "slug": "gouging-claw",
+        "_migration": {
+          "version": 0.939,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "attack",
+            "cantrip",
+            "concentrate",
+            "manipulate",
+            "morph"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "primal"
+          ]
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1
+        },
+        "requirements": "",
+        "target": {
+          "value": "1 creature"
+        },
+        "range": {
+          "value": "touch"
+        },
+        "area": null,
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "",
+          "sustained": false
+        },
+        "damage": {
+          "0": {
+            "applyMod": false,
+            "category": null,
+            "formula": "2d6",
+            "kinds": [
+              "damage"
+            ],
+            "materials": [],
+            "type": "untyped"
+          },
+          "3Pz4NTLXD2rzKgf4": {
+            "applyMod": false,
+            "category": "persistent",
+            "formula": "2",
+            "kinds": [
+              "damage"
+            ],
+            "materials": [],
+            "type": "bleed"
+          }
+        },
+        "defense": null,
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "gKU9VrPx3JnPWyUp",
+          "heightenedLevel": 0
+        },
+        "counteraction": false,
+        "heightening": {
+          "damage": {
+            "0": "1d6",
+            "3Pz4NTLXD2rzKgf4": "1"
+          },
+          "interval": 1,
+          "type": "interval"
+        },
+        "overlays": {
+          "URQWpedXx9fB1fR7": {
+            "name": "Gouging Claw (Piercing)",
+            "overlayType": "override",
+            "sort": 1,
+            "system": {
+              "damage": {
+                "0": {
+                  "category": null,
+                  "type": "piercing"
+                }
+              },
+              "defense": null
+            }
+          },
+          "wQHuRGaDDW2MemlK": {
+            "_id": "wQHuRGaDDW2MemlK",
+            "name": "Gouging Claw (Slashing)",
+            "overlayType": "override",
+            "sort": 2,
+            "system": {
+              "damage": {
+                "0": {
+                  "category": null,
+                  "type": "slashing"
+                }
+              }
+            }
+          }
+        }
+      },
+      "type": "spell",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748710438177,
+        "modifiedTime": 1748710438177,
+        "lastModifiedBy": "mSv01wx2yK2C8Oeq"
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {}
+    },
+    {
+      "_id": "0dKKwWkUPilyQyHb",
+      "folder": "T8AzYUgNIAgTJ9Iz",
+      "img": "icons/skills/melee/strike-blade-scimitar-gray-red.webp",
+      "name": "Sure Strike",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>The next time you make an attack roll before the end of your turn, roll it twice and use the better result. The attack ignores circumstance penalties to the attack roll and any flat check required due to the target being @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} or @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden}. You are then temporarily immune to <em>sure strike</em> for 10 minutes.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.fpGDAz2v5PG0zUSl]{Spell Effect: Sure Strike}</p>"
+        },
+        "rules": [],
+        "slug": "sure-strike",
+        "_migration": {
+          "version": 0.939,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "concentrate",
+            "fortune"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "occult"
+          ]
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1
+        },
+        "requirements": "",
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": ""
+        },
+        "area": null,
+        "time": {
+          "value": "1"
+        },
+        "duration": {
+          "value": "until the end of your turn",
+          "sustained": false
+        },
+        "damage": {},
+        "defense": null,
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "gKU9VrPx3JnPWyUp",
+          "heightenedLevel": 1
+        },
+        "counteraction": false
+      },
+      "type": "spell",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748710438177,
+        "modifiedTime": 1748710438177,
+        "lastModifiedBy": "mSv01wx2yK2C8Oeq"
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {}
+    },
+    {
+      "_id": "6jm2HNZisIF73Bu2",
+      "folder": "T8AzYUgNIAgTJ9Iz",
+      "img": "systems/pf2e/icons/spells/magic-fang.webp",
+      "name": "Runic Body",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Glowing runes appear on the target's body. All its unarmed attacks become <em>+1 striking</em> unarmed attacks, gaining a +1 item bonus to attack rolls and increasing the number of damage dice to two.</p>\n<hr />\n<p><strong>Heightened (6th)</strong> The unarmed attacks are <em>+2 greater striking</em>.</p>\n<p><strong>Heightened (9th)</strong> The unarmed attacks are <em>+3 major striking</em>.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.MqZ6FScbfGtXB8tt]{Spell Effect: Runic Body}</p>"
+        },
+        "rules": [],
+        "slug": "runic-body",
+        "_migration": {
+          "version": 0.939,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "concentrate",
+            "manipulate"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "divine",
+            "occult",
+            "primal"
+          ]
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1
+        },
+        "requirements": "",
+        "target": {
+          "value": "1 willing creature"
+        },
+        "range": {
+          "value": "touch"
+        },
+        "area": null,
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "1 minute",
+          "sustained": false
+        },
+        "damage": {},
+        "defense": null,
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "gKU9VrPx3JnPWyUp",
+          "heightenedLevel": 1
+        },
+        "counteraction": false
+      },
+      "type": "spell",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748710438177,
+        "modifiedTime": 1748710438177,
+        "lastModifiedBy": "mSv01wx2yK2C8Oeq"
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {}
+    },
+    {
+      "_id": "92NLkO3VkSfYtX2T",
+      "folder": "wnvibtD90h7CStDC",
+      "img": "icons/magic/nature/stealth-hide-eyes-green.webp",
+      "name": "Darkened Forest Form",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Your apparition casts a feral shadow over your form. You can polymorph into any form listed in @UUID[Compendium.pf2e.spells-srd.Item.gfPjmG6Fe6D3MFjl]{Pest Form}. When you transform into a form granted by a spell, you gain all the effects of the form you chose from a version of the spell heightened to darkened forest form's rank. Each time you Sustain this Spell, you can choose to change to a different shape from those available via any of the associated spells.</p><hr /><p><strong>Heightened (2nd)</strong> You can also transform into the forms listed in @UUID[Compendium.pf2e.spells-srd.Item.wp09USMB3GIW1qbp]{Animal Form}.</p>\n<p><strong>Heightened (5th)</strong> You can also transform into the forms listed in @UUID[Compendium.pf2e.spells-srd.Item.1K6AYGisvo9gqdhs]{Elemental Form}.</p>"
+        },
+        "rules": [],
+        "slug": "darkened-forest-form",
+        "_migration": {
+          "version": 0.939,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "animist",
+            "focus",
+            "polymorph"
+          ],
+          "rarity": "uncommon",
+          "traditions": []
+        },
+        "publication": {
+          "title": "Pathfinder War of Immortals",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1
+        },
+        "requirements": "",
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": ""
+        },
+        "area": null,
+        "time": {
+          "value": "1"
+        },
+        "duration": {
+          "value": "1 minute",
+          "sustained": true
+        },
+        "damage": {},
+        "defense": null,
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "0mGU7SE1mFhPwBla"
+        },
+        "counteraction": false
+      },
+      "type": "spell",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748710438177,
+        "modifiedTime": 1748710438177,
+        "lastModifiedBy": "mSv01wx2yK2C8Oeq"
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {}
+    },
+    {
+      "_id": "fyIE7UcP2QSahoCK",
+      "folder": "wnvibtD90h7CStDC",
+      "img": "icons/skills/melee/hand-grip-staff-teal.webp",
+      "name": "Embodiment of Battle",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Your apparition guides your attacks and imparts its skill to your movements. For the duration, your proficiency with martial weapons is equal to your proficiency with simple weapons, you gain a +1 status bonus to attack and damage rolls made with weapons or unarmed attacks, and you gain the @UUID[Compendium.pf2e.actionspf2e.Item.KAVf7AmRnbCAHrkT]{Reactive Strike} reaction; this reaction gains the apparition trait. The instincts of an apparition of battle run contrary to the use of magic; for the duration of this spell, you take a –2 status penalty to your spell attack modifiers and your spell DCs.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.uiXWJVwWuMS3KvkV]{Spell Effect: Embodiment of Battle}</p><hr /><p><strong>Heightened (4th)</strong> The status bonus to attack and damage rolls granted by this spell is increased to +2.</p>\n<p><strong>Heightened (7th)</strong> The status bonus to attack and damage rolls granted by this spell is increased to +3.</p>"
+        },
+        "rules": [],
+        "slug": "embodiment-of-battle",
+        "_migration": {
+          "version": 0.939,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "animist",
+            "focus"
+          ],
+          "rarity": "uncommon",
+          "traditions": []
+        },
+        "publication": {
+          "title": "Pathfinder War of Immortals",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1
+        },
+        "requirements": "",
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": ""
+        },
+        "area": null,
+        "time": {
+          "value": "1"
+        },
+        "duration": {
+          "value": "1 minute",
+          "sustained": true
+        },
+        "damage": {},
+        "defense": null,
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "0mGU7SE1mFhPwBla"
+        },
+        "counteraction": false
+      },
+      "type": "spell",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748710438177,
+        "modifiedTime": 1748710438177,
+        "lastModifiedBy": "mSv01wx2yK2C8Oeq"
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {}
+    },
+    {
+      "_id": "yFM3KEXZLXCxA4O9",
+      "img": "systems/pf2e/icons/equipment/treasure/currency/platinum-pieces.webp",
+      "name": "Platinum Pieces",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": "platinum-pieces",
+        "_migration": {
+          "version": 0.939,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 0,
+        "baseItem": null,
+        "bulk": {
+          "value": 1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "pp": 1
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "stackGroup": "coins"
+      },
+      "type": "treasure",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748710438407,
+        "modifiedTime": 1748710438407,
+        "lastModifiedBy": "mSv01wx2yK2C8Oeq"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {}
+    },
+    {
+      "_id": "3hT4IDtv1SPDqux0",
+      "img": "systems/pf2e/icons/equipment/treasure/currency/gold-pieces.webp",
+      "name": "Gold Pieces",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": "gold-pieces",
+        "_migration": {
+          "version": 0.939,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 24,
+        "baseItem": null,
+        "bulk": {
+          "value": 1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 1
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "stackGroup": "coins"
+      },
+      "type": "treasure",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748710438407,
+        "modifiedTime": 1748715367014,
+        "lastModifiedBy": "LjBpReNccZVffF8t"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {}
+    },
+    {
+      "_id": "aPtbTMOU25evuNjn",
+      "img": "systems/pf2e/icons/equipment/treasure/currency/silver-pieces.webp",
+      "name": "Silver Pieces",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": "silver-pieces",
+        "_migration": {
+          "version": 0.939,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 3,
+        "baseItem": null,
+        "bulk": {
+          "value": 1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "sp": 1
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "stackGroup": "coins"
+      },
+      "type": "treasure",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748710438407,
+        "modifiedTime": 1748715398065,
+        "lastModifiedBy": "LjBpReNccZVffF8t"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {}
+    },
+    {
+      "_id": "lZGbkUIKGJfsxIwd",
+      "img": "systems/pf2e/icons/equipment/treasure/currency/copper-pieces.webp",
+      "name": "Copper Pieces",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": "copper-pieces",
+        "_migration": {
+          "version": 0.939,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 0,
+        "baseItem": null,
+        "bulk": {
+          "value": 1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "cp": 1
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "stackGroup": "coins"
+      },
+      "type": "treasure",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748710438407,
+        "modifiedTime": 1748710438407,
+        "lastModifiedBy": "mSv01wx2yK2C8Oeq"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {}
+    },
+    {
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Avoid Notice",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "description": {
+          "value": "<p>You attempt a <span data-pf2-action=\"avoidNotice\">Stealth</span> check to avoid notice while traveling at half speed. If you're Avoiding Notice at the start of an encounter, you usually roll a Stealth check instead of a Perception check both to determine your initiative and to see if the enemies notice you (based on their Perception DCs, as normal for @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{Sneak}, regardless of their initiative check results).</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core",
+          "authors": ""
+        },
+        "rules": [],
+        "traits": {
+          "value": [
+            "exploration"
+          ],
+          "otherTags": []
+        },
+        "slug": "avoid-notice",
+        "_migration": {
+          "version": 0.939,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748710907086,
+        "modifiedTime": 1748710907086,
+        "lastModifiedBy": "mSv01wx2yK2C8Oeq"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_id": "uPXU1ce8s9cuVuvZ"
+    },
+    {
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Blend In",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "interaction",
+        "description": {
+          "value": "<p><strong>Overcome</strong> @Check[deception|dc:35], @Check[society|dc:37], @Check[stealth|dc:35]</p>\n<hr />\n<p>Sometimes the best option for crossing a crowded party is to act natural and join the crowd.</p>\n<p>If a PC successfully Blends In, roll a secret @Check[perception|dc:34|traits:secret] for them to notice that something seems off about one of the guests. On a success, inform them about the Dispel a Disguise Opportunity.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "OGL",
+          "remaster": false,
+          "title": "Pathfinder #149: Against the Scarlet Triad",
+          "authors": ""
+        },
+        "rules": [],
+        "traits": {
+          "value": [
+            "exploration"
+          ],
+          "otherTags": []
+        },
+        "slug": "blend-in",
+        "_migration": {
+          "version": 0.939,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748710908960,
+        "modifiedTime": 1748710908960,
+        "lastModifiedBy": "mSv01wx2yK2C8Oeq"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_id": "rJoHeLjAsntkJ8fZ"
+    },
+    {
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Bond with Spirit",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "description": {
+          "value": "<p>You can forge a spiritual bond with a creature that is at least friendly toward you or with a terrain that you're currently in. Forming this bond takes 10 minutes, during which time you must remain adjacent to the creature or within that terrain. If the creature is intelligent, this also requires that creature's consent, and that intelligent creature can choose to sever this bond with you at any time as a free action, which has the concentrate trait. This bond lasts as long as you are within a mile of the creature or terrain, until you use Bond with Spirit again, or until you make your daily preparations.</p>\n<p>You must be Bonded with a Spirit to cast the @UUID[Compendium.pf2e.spells-srd.Item.Yph1UqZU8vMc9bJG]{Entreat Spirit} focus spell.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Lost Omens Divine Mysteries",
+          "authors": ""
+        },
+        "rules": [],
+        "traits": {
+          "value": [
+            "concentrate",
+            "exploration"
+          ],
+          "otherTags": []
+        },
+        "slug": "bond-with-spirit",
+        "_migration": {
+          "version": 0.939,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748710911754,
+        "modifiedTime": 1748710911754,
+        "lastModifiedBy": "mSv01wx2yK2C8Oeq"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_id": "q5ZnDjoZw6BWGXQ1"
+    },
+    {
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Breaking and Entering",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "interaction",
+        "description": {
+          "value": "<p><strong>Overcome</strong> @Check[acrobatics|dc:37], @Check[athletics|dc:35], @Check[nature|dc:35],@Check[stealth|dc:35], @Check[thievery|dc:35]</p>\n<hr />\n<p>The PCs scale the walls, calm the guard dogs, hide from guards, and unlock gates.</p>\n<hr />\n<p><strong>Special</strong> If a PC successfully Breaks and Enters, they can attempt a @Check[perception|dc:35|traits:secret] to notice a set of keys carried by a guard or resting in a somewhat hard-to-reach area, allowing for that PC to take the Steal Keys Opportunity.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "OGL",
+          "remaster": false,
+          "title": "Pathfinder #149: Against the Scarlet Triad",
+          "authors": ""
+        },
+        "rules": [],
+        "traits": {
+          "value": [
+            "exploration"
+          ],
+          "otherTags": []
+        },
+        "slug": "breaking-and-entering",
+        "_migration": {
+          "version": 0.939,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748710915136,
+        "modifiedTime": 1748710915136,
+        "lastModifiedBy": "mSv01wx2yK2C8Oeq"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_id": "xiMBo5PVcjDiiSY5"
+    },
+    {
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Cleanse Soul Path",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "interaction",
+        "description": {
+          "value": "<p>You meditate, pray, or otherwise try to reinforce your soul's connection to your soulforged armament. This takes 10 minutes. Attempt a counteract check against your <em>soulforged corruption</em>. The counteract rank is half your level rounded up, and the counteract check modifier is your Religion modifier. If successful, reduce the stage of your <em>soulforged corruption</em> by 1 (to a minimum of Stage 1).</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "OGL",
+          "remaster": false,
+          "title": "Pathfinder Secrets of Magic",
+          "authors": ""
+        },
+        "rules": [],
+        "traits": {
+          "value": [
+            "exploration"
+          ],
+          "otherTags": []
+        },
+        "slug": "cleanse-soul-path",
+        "_migration": {
+          "version": 0.939,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748710922000,
+        "modifiedTime": 1748710922000,
+        "lastModifiedBy": "mSv01wx2yK2C8Oeq"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_id": "QSu6z3EtwMLM2PsH"
+    },
+    {
+      "folder": "0Z6sKp3ActW2pM2e",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Cover Tracks",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "description": {
+          "value": "<p>You cover your tracks, moving up to half your travel Speed, using the @UUID[Compendium.pf2e.journals.JournalEntry.S55aqwWIzpQRFhcq.JournalEntryPage.DUOb8QrlC5t0adkL]{Travel Speed} rules. You don't need to attempt a Survival check to cover your tracks, but anyone tracking you must succeed at a Survival check against your Survival DC if it is higher than the normal DC to @UUID[Compendium.pf2e.actionspf2e.Item.EA5vuSgJfiHH7plD]{Track}.</p>\n<p>In some cases, you might Cover Tracks in an encounter. In this case, Cover Tracks is a single action and doesn't have the exploration trait.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core",
+          "authors": ""
+        },
+        "rules": [],
+        "traits": {
+          "value": [
+            "concentrate",
+            "exploration",
+            "move"
+          ],
+          "otherTags": []
+        },
+        "slug": "cover-tracks",
+        "_migration": {
+          "version": 0.939,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748710926189,
+        "modifiedTime": 1748710926189,
+        "lastModifiedBy": "mSv01wx2yK2C8Oeq"
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {},
+      "_id": "EG85ethqrimfBkzP"
+    },
+    {
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Detect Magic",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "interaction",
+        "description": {
+          "value": "<p>You cast @UUID[Compendium.pf2e.spells-srd.Item.gpzpAAAJ1Lza2JVl]{Detect Magic} at regular intervals. You move at half your travel speed or slower. You have no chance of accidentally overlooking a magic aura at a travel speed up to 300 feet per minute, but must be traveling no more than 150 feet per minute to detect magic auras before the party moves into them.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core",
+          "authors": ""
+        },
+        "rules": [],
+        "traits": {
+          "value": [
+            "concentrate",
+            "exploration"
+          ],
+          "otherTags": []
+        },
+        "slug": "detect-magic",
+        "_migration": {
+          "version": 0.939,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748710931641,
+        "modifiedTime": 1748710931641,
+        "lastModifiedBy": "mSv01wx2yK2C8Oeq"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_id": "fyrVOTe5zhIytldw"
+    },
+    {
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Distract Guards",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "interaction",
+        "description": {
+          "value": "<p>You attempt to distract a specific group of guards away from their patrol route or their post. You can do so by attempting a @Check[deception|dc:41] check, or by using a spell effect, in which case you attempt a @Check[arcana|dc:41], @Check[nature|dc:41], @Check[occultism|dc:41], or @Check[religion|dc:41] check (as appropriate) to determine success. Each attempt to Distract Guards takes a minute to play out-from the initial distraction to the guard's reaction.</p>\n<hr />\n<p><strong>Critical Success</strong> You significantly distract the guards away from their patrol area or post to an area in the citadel of your choice. The guards return to their original post after 1 hour has passed.</p>\n<p><strong>Success</strong> You distract the guards away from their patrol area or post to an area in the citadel of your choice. The guards return to their original post after 20 minutes have passed.</p>\n<p><strong>Failure</strong> You fail to distract the guards. Any attempt made in the next 10 minutes to distract the same guards takes a -2 penalty to the check.</p>\n<p><strong>Critical Failure</strong> As failure above, but the guards realize you're trying to distract them and escort you out of the building. If this is your third critical failure against that particular group of guards, the guard instead places you under arrest.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "OGL",
+          "remaster": false,
+          "title": "Pathfinder #150: Broken Promises",
+          "authors": ""
+        },
+        "rules": [],
+        "traits": {
+          "value": [
+            "exploration",
+            "manipulate",
+            "move"
+          ],
+          "otherTags": []
+        },
+        "slug": "distract-guards",
+        "_migration": {
+          "version": 0.939,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748710934962,
+        "modifiedTime": 1748710934962,
+        "lastModifiedBy": "mSv01wx2yK2C8Oeq"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_id": "G2bcznQH8iL5ywsy"
+    },
+    {
+      "folder": "0Z6sKp3ActW2pM2e",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Gather Information",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "interaction",
+        "description": {
+          "value": "<p>You canvass local markets, taverns, and gathering places in an attempt to learn about a specific individual or topic. The GM determines the DC of the [[/act gather-information]]{Diplomacy} check and the amount of time it takes (typically 2 hours, but sometimes more), along with any benefit you might be able to gain by spending coin on bribes, drinks, or gifts.</p>\n<p><strong>Success</strong> You collect information about the individual or topic. The GM determines the specifics.</p>\n<p><strong>Critical Failure</strong> You collect incorrect information about the individual or topic.</p><h2 class=\"title\">Sample Gather Information Tasks</h2><ul><li><strong>Untrained</strong> talk of the town</li><li><strong>Trained</strong> common rumor</li><li><strong>Expert</strong> obscure rumor, poorly guarded secret</li><li><strong>Master</strong> well-guarded or esoteric information</li><li><strong>Legendary</strong> information known only to an incredibly select few, or only to extraordinary beings</li></ul>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core",
+          "authors": ""
+        },
+        "rules": [],
+        "traits": {
+          "value": [
+            "exploration",
+            "secret"
+          ],
+          "otherTags": []
+        },
+        "slug": "gather-information",
+        "_migration": {
+          "version": 0.939,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748710944079,
+        "modifiedTime": 1748710944079,
+        "lastModifiedBy": "mSv01wx2yK2C8Oeq"
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {},
+      "_id": "3gfnWQvycTC75snZ"
+    },
+    {
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Host Spirit",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "interaction",
+        "description": {
+          "value": "<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You attempt one skill check to perform an exploration activity, even if it normally requires you to be trained to do so. You're trained in the skill just long enough to make that single check (to a maximum of 10 minutes).</p>\n<p>Whether or not the check succeeds, in the next 24 hours you must perform a minor favor to appease the spirit who aided you, determined by the GM (usually something sensation related, such as tasting a certain food, listening to a specific song, or smoking a pipe). You can't Host Spirit again until you've performed the favor. If you haven't completed it after 24 hours, you're @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued} until the obligation is fulfilled.</p>",
+          "gm": ""
+        },
+        "frequency": {
+          "max": 1,
+          "per": "day"
+        },
+        "publication": {
+          "license": "OGL",
+          "remaster": false,
+          "title": "Pathfinder Book of the Dead",
+          "authors": ""
+        },
+        "rules": [],
+        "traits": {
+          "value": [
+            "exploration",
+            "occult"
+          ],
+          "otherTags": []
+        },
+        "slug": "host-spirit",
+        "_migration": {
+          "version": 0.939,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748710948490,
+        "modifiedTime": 1748710948490,
+        "lastModifiedBy": "mSv01wx2yK2C8Oeq"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_id": "y3WKn8LwrFNdk0Mh"
+    },
+    {
+      "folder": "0Z6sKp3ActW2pM2e",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Identify Magic",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "interaction",
+        "description": {
+          "value": "<p>Once you discover that an item, location, or ongoing effect is magical, you can spend 10 minutes to try to identify the particulars of its magic. If your attempt is interrupted, you must start over. The GM sets the DC for your check. Cursed magic or esoteric subjects usually have higher DCs or might even be impossible to identify using this activity alone. Heightening a spell doesn't increase the DC to identify it.</p>\n<hr />\n<p><strong>Critical Success</strong> You learn all the attributes of the magic, including its name (for an effect), what it does, any means of activating it (for an item or location), and whether it is cursed.</p>\n<p><strong>Success</strong> For an item or location, you get a sense of what it does and learn any means of activating it. For an ongoing effect (such as a spell with a duration), you learn the effect's name and what it does. You can't try again in hopes of getting a critical success.</p>\n<p><strong>Failure</strong> You fail to identify the magic and can't try again for 1 day.</p>\n<p><strong>Critical Failure</strong> You misidentify the magic as something else of the GM's choice.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core",
+          "authors": ""
+        },
+        "rules": [],
+        "traits": {
+          "value": [
+            "concentrate",
+            "exploration",
+            "secret"
+          ],
+          "otherTags": []
+        },
+        "slug": "identify-magic",
+        "_migration": {
+          "version": 0.939,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748710954241,
+        "modifiedTime": 1748710954241,
+        "lastModifiedBy": "mSv01wx2yK2C8Oeq"
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {},
+      "_id": "p5I5SaWS21lUu0FB"
+    },
+    {
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Investigate",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "interaction",
+        "description": {
+          "value": "<p>You seek out information about your surroundings while traveling at half speed. You use Recall Knowledge as a secret check to discover clues among the various things you can see and engage with as you journey along. You can use any skill that has a Recall Knowledge action while Investigating, but the GM determines whether the skill is relevant to the clues you could find.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core",
+          "authors": ""
+        },
+        "rules": [],
+        "traits": {
+          "value": [
+            "concentrate",
+            "exploration"
+          ],
+          "otherTags": []
+        },
+        "slug": "investigate",
+        "_migration": {
+          "version": 0.939,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748710957415,
+        "modifiedTime": 1748710957415,
+        "lastModifiedBy": "mSv01wx2yK2C8Oeq"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_id": "txS7g5OwHWeg3Nby"
+    },
+    {
+      "folder": "0Z6sKp3ActW2pM2e",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Repair",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "interaction",
+        "description": {
+          "value": "<p><strong>Requirements</strong> You are holding or wearing a @UUID[Compendium.pf2e.equipment-srd.Item.vLGDUFrg4yGzpTQX]{Repair Kit}</p>\n<hr />\n<p>You spend 10 minutes attempting to fix a damaged item, placing the item on a stable surface and using the repair kit with both hands. The GM sets the DC, but it's usually about the same DC to Repair a given item as it is to Craft it in the first place. You can't Repair a destroyed item.</p>\n<hr />\n<p><strong>Critical Success</strong> You restore 10 Hit Points to the item, plus an additional 10 Hit Points per proficiency rank you have in Crafting (a total of 20 HP if you're trained, 30 HP if you're an expert, 40 HP if you're a master, or 50 HP if you're legendary).</p>\n<p><strong>Success</strong> You restore 5 Hit Points to the item, plus an additional 5 per proficiency rank you have in Crafting (for a total of 10 HP if you are trained, 15 HP if you're an expert, 20 HP if you're a master, or 25 HP if you're legendary).</p>\n<p><strong>Critical Failure</strong> You deal [[/r {2d6}]]{2d6 damage} to the item. Apply the item's Hardness to this damage.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core",
+          "authors": ""
+        },
+        "rules": [],
+        "traits": {
+          "value": [
+            "exploration",
+            "manipulate"
+          ],
+          "otherTags": []
+        },
+        "slug": "repair",
+        "_migration": {
+          "version": 0.939,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748710967007,
+        "modifiedTime": 1748710967007,
+        "lastModifiedBy": "mSv01wx2yK2C8Oeq"
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {},
+      "_id": "vg4o8sG0naRCbXEi"
+    },
+    {
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Research",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "interaction",
+        "description": {
+          "value": "<p>You comb through information to learn more about the topic at hand. Choose your research topic, section of the library, or other division depending on the form of research, and attempt a skill check. The skills to use and the DC for the check depend on the choice you made.</p>\n<hr />\n<p><strong>Critical Success</strong> You gain 2 RP.</p>\n<p><strong>Success</strong> You gain 1 RP.</p>\n<p><strong>Critical Failure</strong> You make a false discovery and lose 1 RP.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "OGL",
+          "remaster": false,
+          "title": "Pathfinder Gamemastery Guide",
+          "authors": ""
+        },
+        "rules": [],
+        "traits": {
+          "value": [
+            "concentrate",
+            "exploration",
+            "linguistic"
+          ],
+          "otherTags": []
+        },
+        "slug": "research",
+        "_migration": {
+          "version": 0.939,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748710971667,
+        "modifiedTime": 1748710971667,
+        "lastModifiedBy": "mSv01wx2yK2C8Oeq"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_id": "bwvrWf6qUB09LLyy"
+    },
+    {
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Scout",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "interaction",
+        "description": {
+          "value": "<p>You scout ahead and behind the group to watch danger, moving at half speed. At the start of the next encounter, every creature in your party gains a +1 circumstance bonus to their initiative rolls.</p>\n<p>@UUID[Compendium.pf2e.other-effects.Item.EMqGwUi3VMhCjTlF]{Effect: Scout}</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core",
+          "authors": ""
+        },
+        "rules": [],
+        "traits": {
+          "value": [
+            "concentrate",
+            "exploration"
+          ],
+          "otherTags": []
+        },
+        "slug": "scout",
+        "_migration": {
+          "version": 0.939,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748710975306,
+        "modifiedTime": 1748710975306,
+        "lastModifiedBy": "mSv01wx2yK2C8Oeq"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_id": "4LygJFtAUO0uG5r1"
+    },
+    {
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Search",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "interaction",
+        "description": {
+          "value": "<p>You @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} meticulously for hidden doors, concealed hazards, and so on. You can usually make an educated guess as to which locations are best to check and move at half speed, but if you want to be thorough and guarantee you checked everything, you need to travel at a Speed of no more than 300 feet per minute, or 150 feet per minute to ensure you check everything before you walk into it. You can always move more slowly while Searching to cover the area more thoroughly, and the @UUID[Compendium.pf2e.feats-srd.Item.GdZLxDtFXaQI3Fop]{Expeditious Search} feat increases these maximum Speeds. If you come across a secret door, item, or hazard while Searching, the GM will attempt a free secret check to Seek to see if you notice the hidden object or hazard. In locations with many objects to search, you have to stop and spend significantly longer to search thoroughly.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core",
+          "authors": ""
+        },
+        "rules": [],
+        "traits": {
+          "value": [
+            "concentrate",
+            "exploration"
+          ],
+          "otherTags": []
+        },
+        "slug": "search",
+        "_migration": {
+          "version": 0.939,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748710978892,
+        "modifiedTime": 1748710978892,
+        "lastModifiedBy": "mSv01wx2yK2C8Oeq"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_id": "NuAkjlBRkXoqT8aD"
+    },
+    {
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Take a Breather",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "interaction",
+        "description": {
+          "value": "<p><strong>Cost</strong> 1 Resolve Point</p>\n<hr />\n<p>You rest for 10 minutes and recover your stamina. After you complete this activity, you regain all your Stamina Points.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "OGL",
+          "remaster": false,
+          "title": "Pathfinder Gamemastery Guide",
+          "authors": ""
+        },
+        "rules": [],
+        "traits": {
+          "value": [
+            "exploration",
+            "stamina"
+          ],
+          "otherTags": []
+        },
+        "slug": "take-a-breather",
+        "_migration": {
+          "version": 0.939,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748710988480,
+        "modifiedTime": 1748710988480,
+        "lastModifiedBy": "mSv01wx2yK2C8Oeq"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_id": "HOs38bVAkLvOdXfK"
+    },
+    {
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Clean",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "interaction",
+        "description": {
+          "value": "<p>You spend the day cleaning-hauling out broken furniture, disposing of detritus, and making rooms clear enough to begin repairs. Citadel Altaerein requires 8 days of cleaning before any other basic repair activities can begin. Cleaning does not require a Crafting check, nor does it cost gold.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "OGL",
+          "remaster": false,
+          "title": "Pathfinder #146: Cult of Cinders",
+          "authors": ""
+        },
+        "rules": [],
+        "traits": {
+          "value": [
+            "downtime",
+            "manipulate"
+          ],
+          "otherTags": []
+        },
+        "slug": "clean",
+        "_migration": {
+          "version": 0.939,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748711002792,
+        "modifiedTime": 1748711002792,
+        "lastModifiedBy": "mSv01wx2yK2C8Oeq"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_id": "M0CbWQ2Q1upqdDid"
+    },
+    {
+      "folder": "0Z6sKp3ActW2pM2e",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Craft",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "interaction",
+        "description": {
+          "value": "<p>You can make an item from raw materials. You need the @UUID[Compendium.pf2e.feats-srd.Item.is3Oz9wt11lNq62K]{Alchemical Crafting} skill feat to create alchemical items and the @UUID[Compendium.pf2e.feats-srd.Item.xWY5omyIcILNR7y1]{Magical Crafting} feat to create magic items.</p>\n<p>To craft an item, you must meet the following requirements:</p>\n<ul>\n<li>The item is your level or lower. An item that doesn't list a level is level 0. If the item is 9th level or higher, you must be a master in Crafting, and if it's 17th or higher, you must be legendary.</li>\n<li>The item must be common, or you must otherwise have access to it.</li>\n<li>You have an appropriate set of tools and, in many cases, a workshop. For example, you need access to a smithy to forge a metal shield, or an @UUID[Compendium.pf2e.equipment-srd.Item.k6xZkDUpF7E1Totd]{Alchemist's Lab} to produce alchemical items.</li>\n<li>You must supply raw materials worth at least half the item's Price. You always expend at least that amount of raw materials when you Craft successfully. If you're in a settlement, you can usually spend currency to get the amount of raw materials you need, except in the case of rarer precious materials.</li>\n</ul>\n<p>You attempt a <span data-pf2-action=\"craft\">Crafting</span> check after you spend 2 days of work setting up, or 1 day if you have the item's formula. The GM determines the DC to Craft the item based on its level, rarity, and other circumstances.</p>\n<p>If your attempt to create the item is successful, you expend the raw materials you supplied. You can pay the remaining portion of the item's Price in materials to complete the item immediately, or you can spend additional downtime days working on it. For each additional day you spend, reduce the value of the materials you need to expend to complete the item. This amount is determined using the Income Earned table, based on your proficiency rank in Crafting and using your own level instead of a task level.</p>\n<p>After any of these downtime days, you can complete the item by spending the remaining portion of its Price in materials. If the downtime days you spend are interrupted,you can return to finish the item later, continuing where you left off. An example of Crafting appears in the sidebar.</p>\n<hr />\n<p><strong>Critical Success</strong> Your attempt is successful. Each additional day spent Crafting reduces the materials needed to complete the item by an amount based on your level + 1 and your proficiency rank in Crafting.</p>\n<p><strong>Success</strong> Your attempt is successful. Each additional day spent Crafting reduces the materials needed to complete the item by an amount based on your level and your proficiency rank.</p>\n<p><strong>Failure</strong> You fail to complete the item. You can salvage the raw materials you supplied for their full value. If you want to try again, you must start over.</p>\n<p><strong>Critical Failure</strong> You fail to complete the item. You ruin 10% of the raw materials you supplied, but you can salvage the rest. If you want to try again, you must start over.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core",
+          "authors": ""
+        },
+        "rules": [],
+        "traits": {
+          "value": [
+            "downtime",
+            "manipulate"
+          ],
+          "otherTags": []
+        },
+        "slug": "craft",
+        "_migration": {
+          "version": 0.939,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748711005869,
+        "modifiedTime": 1748711005869,
+        "lastModifiedBy": "mSv01wx2yK2C8Oeq"
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {},
+      "_id": "llY3DLDq5ZMEgrZy"
+    },
+    {
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Forge Documents",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "interaction",
+        "description": {
+          "value": "<p>You prepare forgeries that might serve as convincing props. Attempt a hard or very hard Society check.</p>\n<hr />\n<p><strong>Success</strong> You create convincing forgeries and gain 1 EP you can use only when presenting some form of paperwork.</p>\n<p><strong>Failure</strong> You create unconvincing documents. You gain 1 EP that (unknown to you) grants no benefit when used.</p>\n<p><strong>Critical Failure</strong> As a failure, but a PC who tries to use the Edge Point gets a critical failure, even if they use the Edge Point after rolling a failure.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder GM Core",
+          "authors": ""
+        },
+        "rules": [],
+        "traits": {
+          "value": [
+            "downtime",
+            "secret"
+          ],
+          "otherTags": []
+        },
+        "slug": "forge-documents",
+        "_migration": {
+          "version": 0.939,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748711013369,
+        "modifiedTime": 1748711013369,
+        "lastModifiedBy": "mSv01wx2yK2C8Oeq"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_id": "RYSvka5VpqnFAwQ5"
+    },
+    {
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Gossip",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "interaction",
+        "description": {
+          "value": "<p>You seek out rumors about the infiltration's target. Attempt a normal, hard, or very hard Diplomacy check.</p>\n<hr />\n<p><strong>Critical Success</strong> You gain inside information about the location or group you're trying to infiltrate. This grants you a +2 circumstance bonus to future checks you attempt for preparation activities for this infiltration. If you share this information, those you share it with also gain this bonus.</p>\n<p><strong>Success</strong> You gain inside information about the place or group you're attempting to infiltrate that aids your planning.</p>\n<p><strong>Failure</strong> You learn nothing.</p>\n<p><strong>Critical Failure</strong> You hear a few mistaken rumors and take a -2 circumstance penalty to your next check for a preparation activity. Word spreads around that you're asking after that group or individual, increasing your Awareness Points by 1.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder GM Core",
+          "authors": ""
+        },
+        "rules": [],
+        "traits": {
+          "value": [
+            "downtime",
+            "secret"
+          ],
+          "otherTags": []
+        },
+        "slug": "gossip",
+        "_migration": {
+          "version": 0.939,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748711019304,
+        "modifiedTime": 1748711019304,
+        "lastModifiedBy": "mSv01wx2yK2C8Oeq"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_id": "3vwN7cHSihylyca4"
+    },
+    {
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Influence Rumor",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "interaction",
+        "description": {
+          "value": "<p>You spend at least 1 day of downtime attempting to manipulate the course, tone, or content of a rumor to your benefit. You need to succeed at a Diplomacy check to shift the rumor as you intend. The difficulty is determined by the GM based on the size of the community, the relative perceptiveness of the inhabitants, and the agency of other rumormongers, but it typically is no lower than DC 15 for a small village, DC 20 for a town, DC 30 for a city, or DC 40 for a metropolis.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core 2",
+          "authors": ""
+        },
+        "rules": [],
+        "traits": {
+          "value": [
+            "downtime"
+          ],
+          "otherTags": []
+        },
+        "slug": "influence-rumor",
+        "_migration": {
+          "version": 0.939,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748711024557,
+        "modifiedTime": 1748711024557,
+        "lastModifiedBy": "mSv01wx2yK2C8Oeq"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_id": "uZsUcrsJNKd9gINT"
+    },
+    {
+      "name": "Lady Sola Token",
+      "type": "equipment",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>A small blackened coin with nothing on it.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.939,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "unique"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {}
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "tiny",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "carried"
+        },
+        "subitems": []
+      },
+      "_id": "drkRgNvmR18jT1TD",
+      "img": "icons/commodities/currency/coin-inset-swirl-gold.webp",
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748712851020,
+        "modifiedTime": 1748713756771,
+        "lastModifiedBy": "mSv01wx2yK2C8Oeq"
+      }
+    },
+    {
+      "img": "icons/equipment/chest/vest-leather-tattered-white.webp",
+      "name": "Hide Armor",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>A mix of furs, sturdy hide, and sometimes molded boiled leather, this armor provides protection due to its layers of leather, though its bulkiness slows the wearer down and decreases mobility.</p>"
+        },
+        "rules": [],
+        "slug": "hide-armor",
+        "_migration": {
+          "version": 0.939,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": "hide-armor",
+        "bulk": {
+          "value": 2
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 2
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null,
+          "handsHeld": 0,
+          "inSlot": false
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "medium",
+        "group": "leather",
+        "acBonus": 3,
+        "strength": 2,
+        "dexCap": 2,
+        "checkPenalty": -2,
+        "speedPenalty": -5,
+        "runes": {
+          "potency": 0,
+          "resilient": 0,
+          "property": []
+        },
+        "subitems": []
+      },
+      "type": "armor",
+      "flags": {
+        "core": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748714882439,
+        "modifiedTime": 1748714882752,
+        "lastModifiedBy": "LjBpReNccZVffF8t"
+      },
+      "_id": "oI6uRD4pAQQTTp2L"
+    },
+    {
+      "img": "icons/tools/hand/lockpicks-steel-grey.webp",
+      "name": "Thieves' Toolkit (Infiltrator Picks)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>These are replacement picks for @UUID[Compendium.pf2e.equipment-srd.Item.6nrCxNQFycUVFOV2]{Thieves' Toolkit (Infiltrator)}.</p>"
+        },
+        "rules": [],
+        "slug": "thieves-toolkit-infiltrator-picks",
+        "_migration": {
+          "version": 0.939,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 3
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 3
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null,
+          "handsHeld": 0,
+          "inSlot": false
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "other"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "flags": {
+        "core": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748714908411,
+        "modifiedTime": 1748714908695,
+        "lastModifiedBy": "LjBpReNccZVffF8t"
+      },
+      "_id": "QWsynZ1VSDCWgMAs"
+    },
+    {
+      "img": "icons/weapons/polearms/spear-simple-engraved.webp",
+      "name": "Longspear",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This very long spear, sometimes called a pike, is purely for thrusting rather than throwing. Used by many soldiers and city watch for crowd control and defense against charging enemies, it must be wielded with two hands.</p>"
+        },
+        "rules": [],
+        "slug": "longspear",
+        "_migration": {
+          "version": 0.939,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "reach"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": "longspear",
+        "bulk": {
+          "value": 2
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "sp": 5
+          }
+        },
+        "equipped": {
+          "carryType": "held",
+          "invested": null,
+          "handsHeld": 1
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "held-in-two-hands"
+        },
+        "category": "simple",
+        "group": "spear",
+        "bonus": {
+          "value": 0
+        },
+        "damage": {
+          "dice": 1,
+          "die": "d8",
+          "damageType": "piercing",
+          "persistent": null
+        },
+        "splashDamage": {
+          "value": 0
+        },
+        "range": null,
+        "reload": {
+          "value": ""
+        },
+        "runes": {
+          "potency": 0,
+          "striking": 0,
+          "property": []
+        },
+        "specific": null,
+        "subitems": [],
+        "bonusDamage": {
+          "value": 0
+        },
+        "property1": {
+          "value": "",
+          "dice": 0,
+          "die": "",
+          "damageType": "",
+          "critDice": 0,
+          "critDie": "",
+          "critDamage": "",
+          "critDamageType": ""
+        }
+      },
+      "type": "weapon",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "7.1.1",
+        "createdTime": 1748715368874,
+        "modifiedTime": 1750530760227,
+        "lastModifiedBy": "mSv01wx2yK2C8Oeq"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_id": "cSmlI2RURu2boXyS"
+    },
+    {
+      "img": "icons/equipment/hand/gauntlet-tooled-steel.webp",
+      "name": "Gauntlet",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>A pair of these metal gloves comes with full plate, half plate, and splint armor; they can also be purchased separately and worn with other types of armor. They not only protect your hands but also transform your hands into lethal weapons.</p>"
+        },
+        "rules": [],
+        "slug": "gauntlet",
+        "_migration": {
+          "version": 0.939,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "agile",
+            "free-hand"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": "gauntlet",
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "sp": 2
+          }
+        },
+        "equipped": {
+          "carryType": "held",
+          "invested": null,
+          "handsHeld": 1
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "category": "simple",
+        "group": "brawling",
+        "bonus": {
+          "value": 0
+        },
+        "damage": {
+          "dice": 1,
+          "die": "d4",
+          "damageType": "bludgeoning",
+          "persistent": null
+        },
+        "splashDamage": {
+          "value": 0
+        },
+        "range": null,
+        "reload": {
+          "value": ""
+        },
+        "runes": {
+          "potency": 0,
+          "striking": 0,
+          "property": []
+        },
+        "specific": null,
+        "subitems": [],
+        "bonusDamage": {
+          "value": 0
+        },
+        "property1": {
+          "value": "",
+          "dice": 0,
+          "die": "",
+          "damageType": "",
+          "critDice": 0,
+          "critDie": "",
+          "critDamage": "",
+          "critDamageType": ""
+        }
+      },
+      "type": "weapon",
+      "flags": {
+        "core": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748715398959,
+        "modifiedTime": 1748715402038,
+        "lastModifiedBy": "mSv01wx2yK2C8Oeq"
+      },
+      "_id": "rYIBw8dijDg1AjYd"
+    },
+    {
+      "_id": "zNGlvRrYBDztIs4O",
+      "name": "Antiplague (Lesser)",
+      "type": "consumable",
+      "img": "systems/pf2e/icons/equipment/alchemical-items/alchemical-elixirs/antiplague.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {}
+      },
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Activate</strong> <span class=\"pf2-icon\">A</span> Interact</p>\n<p>Antiplague can fortify the body's defenses against diseases. Upon drinking an antiplague, you gain a +2 item bonus to Fortitude saving throws against diseases for 24 hours; this applies to your daily save against a disease's progression.</p>\n<p>@Compendium[pf2e.equipment-effects.kkDbalYEavzRpYlp]{Effect: Antiplague (Lesser)}</p>"
+        },
+        "rules": [],
+        "slug": "antiplague-lesser",
+        "_migration": {
+          "version": 0.939,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.344",
+            "system": "7.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "alchemical",
+            "consumable",
+            "elixir",
+            "healing"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Core Rulebook",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 1
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 3
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "handsHeld": 0,
+          "inSlot": false
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "elixir",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true,
+          "per": null,
+          "autoUse": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "stackGroup": null,
+        "spell": null,
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "autoUse": {
+          "value": true,
+          "_deprecated": true
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": 1748720653529,
+        "modifiedTime": 1748720653849,
+        "lastModifiedBy": "LjBpReNccZVffF8t"
+      }
+    },
+    {
+      "_id": "75lSBxljGx6lSjIP",
+      "folder": "rgLztdPekpxToiAf",
+      "img": "systems/pf2e/icons/deities/atrogine.webp",
+      "name": "Atrogine",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Atrogine (uh-TROE-gin-ee) is a young god. Born of the wishes and dreams of a reclusive coven of witches, it's said Atrogine awoke in a forest that had recently been ravaged by wildfires. Saddened by the desolate landscape, their tears touched the ground and brought life back to the flora and fauna, manifesting a lush, vibrant new ecosystem. Whispers on the wind claim that Atrogine has two siblings: one the arbiter of dreams, the other the arbiter of nightmares. Not much is known of these siblings' origins, only that both share the mischievous nature of Atrogine. Rumor says the three deities have formed a coven of their own.</p>\n<p>Atrogine is endlessly curious and voracious when it comes to the knowledge of magic. They reward this hunger and passion in their followers by imparting their own discoveries in ways both mysterious and blatant. They are also highly concerned with their followers' personal journeys. Atrogine also has quite the mischievous streak. Their curiosity leads them to rather creative means of information-seeking—they have, for instance, made a small name for themself by impersonating Pharasma and Nethys and appearing to the other gods' followers to learn more about the deities and their worshippers alike. This, naturally, begs the question: what other gods have they impersonated?</p>\n<p><strong>Title</strong> Thought Made Flesh</p>\n<p><strong>Areas of Concern</strong> curiosity, familiars, manifestation, witches</p>\n<p><strong>Edicts</strong> push the boundaries of known magic, seek like-minded community, commit to truth</p>\n<p><strong>Anathema</strong> compromise yourself for the sake of fitting in, enforce gender norms or stereotypes, withhold magical knowledge for personal gain</p>\n<p><strong>Religious Symbol</strong> eye formed by nightshade plants</p>\n<p><strong>Sacred Animal</strong> moth</p>\n<p><strong>Sacred Color</strong> purple</p>"
+        },
+        "rules": [],
+        "slug": "atrogine",
+        "_migration": {
+          "version": 0.939,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": []
+        },
+        "publication": {
+          "title": "Pathfinder Lost Omens Divine Mysteries",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "category": "deity",
+        "sanctification": null,
+        "domains": {
+          "primary": [
+            "ambition",
+            "knowledge",
+            "magic",
+            "trickery"
+          ],
+          "alternate": [
+            "nature"
+          ]
+        },
+        "font": [
+          "harm",
+          "heal"
+        ],
+        "attribute": [
+          "int",
+          "wis"
+        ],
+        "skill": [
+          "occultism"
+        ],
+        "weapons": [
+          "nails",
+          "sickle"
+        ],
+        "spells": {
+          "1": "Compendium.pf2e.spells-srd.Item.4YnON9JHYqtLzccu",
+          "4": "Compendium.pf2e.spells-srd.Item.A7w3YQBrFNH8KYsB",
+          "7": "Compendium.pf2e.spells-srd.Item.rsZ5c0AUyywe5yoK"
+        }
+      },
+      "type": "deity",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pf2e",
+        "systemVersion": "7.1.1",
+        "createdTime": 1750529807825,
+        "modifiedTime": 1750529807825,
+        "lastModifiedBy": "mSv01wx2yK2C8Oeq"
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "flags": {
+    "pathmuncher": {
+      "pathbuilderId": 360348,
+      "addMoney": true,
+      "addFeats": true,
+      "addSpells": true,
+      "adjustBlendedSlots": true,
+      "addEquipment": true,
+      "addTreasure": true,
+      "addLores": true,
+      "addWeapons": true,
+      "addArmor": true,
+      "addDeity": true,
+      "addName": true,
+      "addClass": true,
+      "addBackground": true,
+      "addHeritage": true,
+      "addAncestry": true,
+      "addFamiliars": true,
+      "addFormulas": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "13.344",
+    "systemId": "pf2e",
+    "systemVersion": "7.1.1",
+    "createdTime": 1748661441721,
+    "modifiedTime": 1750516321018,
+    "lastModifiedBy": "LjBpReNccZVffF8t",
+    "exportSource": {
+      "worldId": "bombaclot",
+      "uuid": "Actor.nGU8LksR3QuYYL6G",
+      "coreVersion": "13.344",
+      "systemId": "pf2e",
+      "systemVersion": "7.1.1"
+    }
+  }
+}

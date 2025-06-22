@@ -81,12 +81,11 @@ All dependencies live in [`requirements.txt`](requirements.txt).
 
 ```mermaid
 flowchart TD
-    A[User Question] --> B{Chat LLM (GPT-4o-mini)}
-    B --> C[Draft Answer]
-    C --> D{Evaluator LLM (O3-mini)}
-    D -- Acceptable --> E[Show Answer]
-    D -- Needs Fix --> F[Rewrite Prompt With Feedback]
-    F --> B
+    A["User Question"] --> B{"Chat LLM (GPT-4o-mini)"}
+    B --> C["Draft Answer"]
+    C --> D{"Evaluator LLM (o3-mini)"}
+    D -- "Acceptable" --> E["Show Answer"]
+    D -- "Needs Improvement" --> B
 ```
 
 1. A user sends a question.
